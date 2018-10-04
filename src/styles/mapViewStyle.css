@@ -55,7 +55,10 @@
 }
 .footerButton{
   background-color: #4A90E2;
+  margin: 5%;
 }
 .footerIcon{
-  color:white;
+  color: white;
+  font-size: xx-large;
+  padding: 5%;
 }
