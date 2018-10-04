@@ -1,0 +1,28 @@
+{
+  "name": "herebackup",
+  "version": "1.0.0",
+  "description": "App turismo inclusivo usando mapas de Here, en esta versión les presentamos una guía turistica patrimonial de santiago ",
+  "main": "controller.js",
+  "dependencies": {
+    "jshint": "^2.9.6"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Marielk/HereBackUp.git"
+  },
+  "keywords": [
+    "inclusion",
+    "mapas",
+    "here"
+  ],
+  "author": "alumnas de laboratoria",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Marielk/HereBackUp/issues"
+  },
+  "homepage": "https://github.com/Marielk/HereBackUp#readme"
+}
