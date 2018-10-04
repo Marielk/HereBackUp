@@ -10,7 +10,6 @@ function facebookLoginWithFirebase() {
     firebase.auth().signInWithPopup(provider)
         .then(() => {
             console.log("Login con facebook exitoso");
-            window.open('home.html','_parent');
         })
         .catch((error) => {
             console.log("Error de firebase > Código > " + error.code); //error.code nos mostrará el código de error para informarnos qué pasó
@@ -28,7 +27,6 @@ function googleLoginWithFirebase() {
         var user = result.user;
         console.log("login con google exitoso");
         // ...
-        window.open('home.html','_parent');
     }).catch(function (error) {
         // Handle Errors here.
         var errorCode = error.code;
