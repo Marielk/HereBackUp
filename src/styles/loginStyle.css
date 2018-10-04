@@ -31,6 +31,7 @@
 
 .textOptions{
   margin: 0%;
+  padding-top: 2%;
 }
 
 .iconsOptions{
@@ -75,7 +76,7 @@
   left: 4px;
   bottom: 4px;
   border-radius: 50%;
-  background-color: #2F5DFF;
+  background-color: #4A90E2;
   -webkit-transition: .4s;
   transition: .4s;
 }
@@ -97,7 +98,7 @@
   left: 4px;
   bottom: 4px;
   border-radius: 50%;
-  background-color: #2F5DFF;
+  background-color: #4A90E2;
   box-shadow: 0 0 1px #2196F3;
   -webkit-transition: .4s;
   transition: .4s;
@@ -109,15 +110,29 @@
 /* Hide default HTML checkbox */
 input {display:none;}
 
+.authButtonContainer{
+  text-align: center;
+}
+
 .buttonLogin{
   width: 50%;
   /* height: 100%; */
-  background-color: #2F5DFF;
   border-radius: 5px;
   border-width: 0px;
   color: white;
   font-size: small;
+  font-weight: bold !important;
+  box-shadow: 0 .5rem 1rem #949494 !important;
+  padding-top: 3%;
   margin-top: 15%;
+}
+
+.fb{
+  background-color: #3B5998;
+}
+
+.google{
+  background-color: #d34836;
 }
 
 .iconsAuth{

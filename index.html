@@ -57,11 +57,12 @@
             </label>
             </div>
         </div>
-        <!--contenedor botones de login-->
-        <div class="container">
+      
+          <!--contenedor botones de login-->
+        <div class="container authButtonContainer">
             <div class="row">
-                <div class="col m-6">
-                    <button class="buttonLogin fb" onclick="facebookLoginWithFirebase()"> 
+              <div class="col m-6">
+                <button class="btn buttonLogin fb" onclick="facebookLoginWithFirebase()"> 
                   <i class="iconsAuth fab fa-facebook-f"></i>
                   FACEBOOK 
                 </button > 
@@ -69,7 +70,7 @@
             </div>
             <div class="row">
               <div class="col m-6">
-                <button class="buttonLogin google" onclick="googleLoginWithFirebase()">
+                <button class="btn buttonLogin google" onclick="googleLoginWithFirebase()">
                   <i class="iconsAuth fab fa-google-plus-g"></i>  
                   GOOGLE 
                 </button > 
@@ -81,22 +82,24 @@
 
     <section class="mapViewMainContainer" >
         <!-- Seccion MapView -->
-        <div>
-            <!--Header-->
-            <img class="userImg" alt="foto de perfil" src="" />
-            <p>Bienvenido usuario</p>
+        <div class="userInfoContainer">
+          <!--Header-->
+          <img id="userPicture" class="userImg rounded-circle" alt="foto de perfil" />
+          <p>Bienvenido usuario</p>
         </div>
         <!--Cierre Header-->
         <div id="map" style="width: 100vw; height: 100vh; background: grey">
             <!-- map place -->
         </div>
         <div>
-            <!--Footer-->
-            <button><img class="buttonIcon" alt="boton de ver rutas" src=""/>Icono 1</button>
-                    <button><img class="buttonIcon" alt="boton de activar ruta por voz" src=""/>Icono 2</button>
-                    <button><img class="buttonIcon" alt="boton de geolocalizacion" src=""/>Icono 3</button>
-                </div>
-                <!-- Cierre Footer-->
+
+          <!--Footer-->
+          <button><img class="buttonIcon" alt="boton de ver rutas" src=""/>Icono 1</button>
+          <button><img class="buttonIcon" alt="boton de activar ruta por voz" src=""/>Icono 2</button>
+          <button><img class="buttonIcon" alt="boton de geolocalizacion" src=""/>Icono 3</button>
+        </div>
+        <!-- Cierre Footer-->
+
     </section>
     <!-- Cierre Seccion MapView -->
 
@@ -150,8 +153,16 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <!--scripts locales-->
+    <script src="src/scripts/controller.js"></script>
     <script src="src/scripts/loginModel.js"></script>
+
     <script src="src/scripts/mapModel.js"></script>
 </body>
 
 </html>
+
+
+  </body>
+</html>
+
