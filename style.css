@@ -11,6 +11,18 @@
     display: none;
 }
 
+.loginMainContainerHide{
+  display: none;
+}
+
+.mapViewMainContainerShow {
+  display: block;
+}
+
+.placeInfoMainContainerShow {
+    display: block;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -18,12 +30,12 @@ body {
 }
 
 .title {
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 700;
 }
 
 .subTitle {
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 500;
 }
 

@@ -19,13 +19,9 @@ function facebookLoginWithFirebase() {
 //autenticar con Google 
 function googleLoginWithFirebase() {
     var provider = new firebase.auth.GoogleAuthProvider();
-    provider.addScope('https://www.googleapis.com/auth/contacts.readonly');
     firebase.auth().signInWithPopup(provider).then(function (result) {
-        // This gives you a Google Access Token. You can use it to access the Google API.
-        var token = result.credential.accessToken;
-        // The signed-in user info.
         var user = result.user;
-        console.log("login con google exitoso");
+        console.log(user + " " + "login con google exitoso");
         // ...
     }).catch(function (error) {
         // Handle Errors here.
@@ -38,3 +34,27 @@ function googleLoginWithFirebase() {
         // ...
     });
 }
+//funcion login google
+function loginGoogle() {
+
+    const provider = new firebase.auth.GoogleAuthProvider();
+    firebase.auth().signInWithRedirect(provider);
+    firebase.auth().getRedirectResult().then(function (result) {
+  
+    })
+      // This gives you a Google Access Token. You can use it to access the Google API.
+      //let token = result.credential.accessToken;
+      // The signed-in user info.
+      //let user = result.user;
+      .catch(function (error) {
+        console.log('entrar' + error);
+        // Handle Errors here.
+        let errorCode = error.code;
+        let errorMessage = error.message;
+        // The email of the user's account used.
+        let email = error.email;
+        // The firebase.auth.AuthCredential type that was used.
+        let credential = error.credential;
+  
+      });
+  }

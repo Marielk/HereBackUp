@@ -28,11 +28,11 @@
 </head>
 
 <body>
-    <section class="loginMainContainer">
+    <section id="loginSection" class="loginMainContainer">
         <!-- Seccion login -->
         <div class="containter logoContainer">
             <!--logo contenedor-->
-            <img class="logoImg" alt="logo de la aplicacion" src="src/img/logoMiercoles.jpeg" />
+            <img class="logoImg" alt="logo de la aplicacion" src="src/img/logotipo.png" />
         </div>
         <div class="optionsContainer container">
             <!--opciones de interfaz-->
@@ -70,7 +70,7 @@
             </div>
             <div class="row">
               <div class="col m-6">
-                <button class="btn buttonLogin google" onclick="googleLoginWithFirebase()">
+                <button class="btn buttonLogin google" onclick="loginGoogle()">
                   <i class="iconsAuth fab fa-google-plus-g"></i>  
                   GOOGLE 
                 </button > 
@@ -79,24 +79,34 @@
           </div>  
     </section>
     <!-- Cierre Seccion login -->
+    
+    </section> <!--fin vista splash-->
 
-    <section class="mapViewMainContainer" >
+    <section id="mapSection" class="mapViewMainContainer" >
         <!-- Seccion MapView -->
         <div class="userInfoContainer">
           <!--Header-->
           <img id="userPicture" class="userImg rounded-circle" alt="foto de perfil" />
-          <p>Bienvenido usuario</p>
+          <p id="userWelcome" class="userInfoText title" ></p>
+          <button onclick="logout()" id="logOutBtn" class="btn logOut" >
+              <i class="fas fa-window-close"></i> 
+          </button>
         </div>
         <!--Cierre Header-->
         <div id="map" style="width: 100vw; height: 100vh; background: grey">
             <!-- map place -->
         </div>
-        <div>
-
+        <div class="footerContainer" >
           <!--Footer-->
-          <button><img class="buttonIcon" alt="boton de ver rutas" src=""/>Icono 1</button>
-          <button><img class="buttonIcon" alt="boton de activar ruta por voz" src=""/>Icono 2</button>
-          <button><img class="buttonIcon" alt="boton de geolocalizacion" src=""/>Icono 3</button>
+          <button class="btn footerButton" >
+            <i  alt="boton de ver rutas" class="footerIcon fas fa-route"></i>
+          </button>
+          <button class="btn footerButton" >
+            <i alt="boton de activar ruta por voz" class="footerIcon fas fa-headphones"></i>
+          </button>
+          <button class="btn footerButton" >
+            <i alt="ver lista de lugares de recorrido patrimonial" class="footerIcon fas fa-book-open"></i>
+          </button>
         </div>
         <!-- Cierre Footer-->
 
@@ -104,7 +114,7 @@
     <!-- Cierre Seccion MapView -->
 
 
-    <section class="placeInfoMainContainer">
+    <section id="placeSection" class="placeInfoMainContainer">
         <!-- Seccion PlaceInfo-->
         <div>
             <!--Header-->

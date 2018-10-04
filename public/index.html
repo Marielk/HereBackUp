@@ -3,22 +3,22 @@
 
 <head>
 
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Document</title>
-  <!--link a css-->
-  <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="src/styles/loginStyle.css">
-  <link rel="stylesheet" href="src/styles/mapViewStyle.css">
-  <link rel="stylesheet" href="src/styles/placeInfoStyle.css">
-  <!--CDN Iconos-->
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
-  <!--Tipografia-->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans" >
-  <!--CDN Bootstrap-->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-   <!--HereMaps SDK-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <!--link a css-->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="src/styles/loginStyle.css">
+    <link rel="stylesheet" href="src/styles/mapViewStyle.css">
+    <link rel="stylesheet" href="src/styles/placeInfoStyle.css">
+    <!--CDN Iconos-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <!--Tipografia-->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans">
+    <!--CDN Bootstrap-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <!--HereMaps SDK-->
     <link rel="stylesheet" type="text/css" href="https://js.api.here.com/v3/3.0/mapsjs-ui.css?dp-version=1533195059" />
     <script type="text/javascript" src="https://js.api.here.com/v3/3.0/mapsjs-core.js"></script>
     <script type="text/javascript" src="https://js.api.here.com/v3/3.0/mapsjs-service.js"></script>
@@ -28,35 +28,36 @@
 </head>
 
 <body>
-    <section class="loginMainContainer">   
+    <section class="loginMainContainer">
         <!-- Seccion login -->
-        <div class="containter logoContainer" >
+        <div class="containter logoContainer">
             <!--logo contenedor-->
             <img class="logoImg" alt="logo de la aplicacion" src="src/img/logoMiercoles.jpeg" />
         </div>
         <div class="optionsContainer container">
-          <!--opciones de interfaz-->
-          <div class="option1Container row">
-            <i class="iconsOptions fas fa-headphones"></i>
-            <p class="subTitle textOptions" >Dictado por voz </p> 
-            <label class="switch">
+            <!--opciones de interfaz-->
+            <div class="option1Container row">
+                <i class="iconsOptions fas fa-headphones"></i>
+                <p class="subTitle textOptions">Dictado por voz </p>
+                <label class="switch">
               <input id="checkbox1" type="checkbox"/>
               <div id="slider1" class="slider">
                 <span id="bolita1" class="bolita"></span>  
               </div>
             </label>
-          </div>
-          <div class="option2Container row">
-            <i class="iconsOptions fas fa-adjust"></i>
-            <p class="subTitle textOptions" >Color contraste </p> 
-            <label class="switch">
+            </div>
+            <div class="option2Container row">
+                <i class="iconsOptions fas fa-adjust"></i>
+                <p class="subTitle textOptions">Color contraste </p>
+                <label class="switch">
               <input id="checkbox2" type="checkbox"/>
               <div id="slider2" class="slider">
                 <span id="bolita2" class="bolita"></span>  
               </div>
             </label>
-          </div>
+            </div>
         </div>
+      
           <!--contenedor botones de login-->
         <div class="container authButtonContainer">
             <div class="row">
@@ -69,7 +70,7 @@
             </div>
             <div class="row">
               <div class="col m-6">
-                <button class="btn buttonLogin google" onclick="googleLoginWithFirebase()">
+                <button class="btn buttonLogin google" onclick="loginGoogle()">
                   <i class="iconsAuth fab fa-google-plus-g"></i>  
                   GOOGLE 
                 </button > 
@@ -87,16 +88,18 @@
           <p>Bienvenido usuario</p>
         </div>
         <!--Cierre Header-->
-        <div id="map" style="width: 100%; height: 400px; background: grey">
+        <div id="map" style="width: 100vw; height: 100vh; background: grey">
             <!-- map place -->
         </div>
         <div>
+
           <!--Footer-->
           <button><img class="buttonIcon" alt="boton de ver rutas" src=""/>Icono 1</button>
           <button><img class="buttonIcon" alt="boton de activar ruta por voz" src=""/>Icono 2</button>
           <button><img class="buttonIcon" alt="boton de geolocalizacion" src=""/>Icono 3</button>
         </div>
         <!-- Cierre Footer-->
+
     </section>
     <!-- Cierre Seccion MapView -->
 
@@ -154,5 +157,12 @@
     <script src="src/scripts/controller.js"></script>
     <script src="src/scripts/loginModel.js"></script>
 
+    <script src="src/scripts/mapModel.js"></script>
+</body>
+
+</html>
+
+
   </body>
 </html>
+

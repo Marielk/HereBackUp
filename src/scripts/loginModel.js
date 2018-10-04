@@ -34,3 +34,57 @@ function googleLoginWithFirebase() {
         // ...
     });
 }
+
+  function goToMap() {
+    const loginView = document.getElementById("loginSection");
+    const mapView = document.getElementById("mapSection");
+    // cambiar vistas 
+    loginView.classList.remove('loginMainContainer');
+    loginView.classList.add('loginMainContainerHide');
+    mapView.classList.remove('mapViewMainContainer');
+    mapView.classList.add('mapViewMainContainerShow');
+  }
+function printUserData(user){
+	document.getElementById("userPicture").src = user.photoURL;
+	document.getElementById("userWelcome").innerHTML = "Bienvenid@ " + user.displayName;
+}
+
+
+//funcion login google
+function loginGoogle() {
+    const provider = new firebase.auth.GoogleAuthProvider();
+    firebase.auth().signInWithPopup(provider).then(function (result) {
+        var user = result.user;
+        printUserData(user);
+        goToMap();
+    })
+      //let user = result.user;
+      .catch(function (error) {
+        console.log('entrar' + error);
+        // Handle Errors here.
+        let errorCode = error.code;
+        let errorMessage = error.message;
+        // The email of the user's account used.
+        let email = error.email;
+        // The firebase.auth.AuthCredential type that was used.
+        let credential = error.credential;
+  
+      });
+	}
+	
+	//Aquí va la función de cerrar sesión
+function logout() {
+	const loginView = document.getElementById("loginSection");
+	const mapView = document.getElementById("mapSection");
+
+  firebase.auth().signOut()
+    .then(() => {
+				// cambiar vistas 
+			loginView.classList.remove('loginMainContainerHide');
+			loginView.classList.add('loginMainContainer');
+			mapView.classList.remove('mapViewMainContainerShow');
+			mapView.classList.add('mapViewMainContainer');
+      alert("Vuelve pronto, te extrañaremos");
+    })
+    .catch();
+}
