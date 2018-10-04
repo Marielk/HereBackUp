@@ -1,0 +1,110 @@
+.logoContainer{
+  text-align: center;
+  margin-top: 20%;
+}
+.logoImg{
+  max-width: 40%;
+  max-height: 20%;
+  margin-bottom: 10%;
+}
+
+.optionsContainer{
+  width: 70%;
+  margin-right: 15% !important;
+  margin-left: 20% !important;
+  padding-left: 8% !important;
+  text-align: center !important;
+}
+
+/* contenedor de opcion 1 */
+.option1Container{
+  display: inline-flex !important;
+  width: -webkit-fill-available;
+  margin-bottom: 10%;
+  margin-top: 5%;
+}
+/* contenedor de opcion 2 */
+.option2Container{
+  display: inline-flex !important;
+  width: -webkit-fill-available;
+}
+
+.textOptions{
+  margin: 0%;
+}
+
+.iconsOptions{
+  margin-top: 1.5%;
+  font-size: x-large;
+  margin-right: 3%;
+}
+
+/* The switch - the box around the slider */
+.switch {
+  margin-left: 4%;
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+/* contenedor inicial  */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: 34px;
+  border-width: 0.5px;
+  border-style: solid;
+  border-color: black;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+/* bolita blanca inicial */
+
+.bolita{
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  border-radius: 50%;
+  background-color: #2F5DFF;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+/* contenedor activo */
+.slider-isActive {
+  border-radius: 34px;
+  width: 60px;
+  height: 34px;
+  background-color: black;
+}
+/* bolita blanca activa */
+.bolita-isActive{
+  position: absolute;-webkit-transition: .4s;
+  transition: .4s;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  border-radius: 50%;
+  background-color: #2F5DFF;
+  box-shadow: 0 0 1px #2196F3;
+  -webkit-transition: .4s;
+  transition: .4s;
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Hide default HTML checkbox */
+input {display:none;}
