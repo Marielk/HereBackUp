@@ -31,6 +31,7 @@
 
 .textOptions{
   margin: 0%;
+  padding-top: 2%;
 }
 
 .iconsOptions{
@@ -120,8 +121,10 @@ input {display:none;}
   border-width: 0px;
   color: white;
   font-size: small;
+  font-weight: bold !important;
+  box-shadow: 0 .5rem 1rem #949494 !important;
+  padding-top: 3%;
   margin-top: 15%;
-  box-shadow: #949494;
 }
 
 .fb{
