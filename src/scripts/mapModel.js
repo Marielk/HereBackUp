@@ -1,19 +1,16 @@
-var platform = new H.service.Platform({
-    'app_id': '{WbEPKWFEnfQM0IXSYfVc}',
-    'app_code': '{vUFJOVT93XZ1xyAq4jcwzQ}',
-    useHTTPS: true
-});
+ platform = new H.service.Platform({
+     'app_id': '{WbEPKWFEnfQM0IXSYfVc}',
+     'app_code': '{vUFJOVT93XZ1xyAq4jcwzQ}',
+     useHTTPS: true
+ });
 
-// Get an object containing the default map layers:
-var defaultLayers = platform.createDefaultLayers();
+ var defaultLayers = platform.createDefaultLayers();
+ var mapPlaceholder = document.getElementById('map');
 
-// Instantiate the map using the normal map as the base layer:
-var map = new H.Map(document.getElementById('map'),
-    defaultLayers.normal.map, {
-        zoom: 10,
-        center: { lat: 52.51, lng: 13.4 }
-    });
+ var map = new H.Map(
+     mapContainer,
+     defaultLayers.normal.map);
 
-
-// Change the map base layer to the satellite map with traffic information:
-// map.setBaseLayer(defaultLayers.satellite.traffic);
+ window.addEventListener('resize', function() {
+     map.getViewPort().resize();
+ });
