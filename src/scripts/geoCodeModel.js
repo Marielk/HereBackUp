@@ -8,8 +8,13 @@ window.onload = function getLocation() {
 }
 
 function showPosition(position) {
-    return [latitude, longitude];
-    let latitude = position.coords.latitude;
-    let longitude = position.coords.longitude;
+    return [lat, lng];
+    let lat = position.coords.latitude;
+    let lng = position.coords.longitude;
     console.log(latitude + '' + longitude);
 }
+
+// function moveMapToBerlin(map){
+//     map.setCenter({lat:, lng:});
+//     map.setZoom(14);
+//   }
