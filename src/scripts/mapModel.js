@@ -8,8 +8,12 @@ var platform = new H.service.Platform({
 var defaultLayers = platform.createDefaultLayers();
 
 // Instantiate the map using the normal map as the base layer:
-var map = new H.Map(document.getElementById('map',
-    defaultLayers.normal.map));
+var map = new H.Map(document.getElementById('map'),
+    defaultLayers.normal.map, {
+        zoom: 10,
+        center: { lat: 52.51, lng: 13.4 }
+    });
+
 
 // Change the map base layer to the satellite map with traffic information:
-map.setBaseLayer(defaultLayers.satellite.traffic);
+// map.setBaseLayer(defaultLayers.satellite.traffic);
