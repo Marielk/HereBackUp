@@ -19,13 +19,9 @@ function facebookLoginWithFirebase() {
 //autenticar con Google 
 function googleLoginWithFirebase() {
     var provider = new firebase.auth.GoogleAuthProvider();
-    provider.addScope('https://www.googleapis.com/auth/contacts.readonly');
     firebase.auth().signInWithPopup(provider).then(function (result) {
-        // This gives you a Google Access Token. You can use it to access the Google API.
-        var token = result.credential.accessToken;
-        // The signed-in user info.
         var user = result.user;
-        console.log("login con google exitoso");
+        console.log(user + " " + "login con google exitoso");
         // ...
     }).catch(function (error) {
         // Handle Errors here.
