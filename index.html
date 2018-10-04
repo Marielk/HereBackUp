@@ -39,20 +39,47 @@
             <img class="logoImg" alt="logo de la aplicacion" src="src/img/logoMiercoles.jpeg" />
         </div>
         <div class="optionsContainer container">
-            <!--opciones de interfaz-->
-            <div class="option1Container row">
-              <i class="iconsOptions fas fa-headphones"></i>
-              <p class="subTitle textOptions" >Dictado por voz </p> 
-              <label class="switch">
-                <input type="checkbox"/>
-                <div class="slider">
-                  <span class="bolita"></span>  
-                </div>
-              </label>
-            
-            </div>
-         </div>
+          <!--opciones de interfaz-->
+          <div class="option1Container row">
+            <i class="iconsOptions fas fa-headphones"></i>
+            <p class="subTitle textOptions" >Dictado por voz </p> 
+            <label class="switch">
+              <input id="checkbox1" type="checkbox"/>
+              <div id="slider1" class="slider">
+                <span id="bolita1" class="bolita"></span>  
+              </div>
+            </label>
+          </div>
+          <div class="option2Container row">
+            <i class="iconsOptions fas fa-adjust"></i>
+            <p class="subTitle textOptions" >Color contraste </p> 
+            <label class="switch">
+              <input id="checkbox2" type="checkbox"/>
+              <div id="slider2" class="slider">
+                <span id="bolita2" class="bolita"></span>  
+              </div>
+            </label>
+          </div>
+        </div>
           <!--contenedor botones de login-->
+        <div class="container">
+            <div class="row">
+              <div class="col m-6">
+                <button class="buttonLogin fb" > 
+                  <i class="iconsAuth fab fa-facebook-f"></i>
+                  FACEBOOK 
+                </button > 
+              </div>
+            </div>
+            <div class="row">
+              <div class="col m-6">
+                <button class="buttonLogin google" >
+                  <i class="iconsAuth fab fa-google-plus-g"></i>  
+                  GOOGLE 
+                </button > 
+              </div>
+            </div>
+          </div>  
     </section>
     <!-- Cierre Seccion login -->
 
