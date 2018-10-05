@@ -21,10 +21,10 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <!--HereMaps SDK-->
     <link rel="stylesheet" type="text/css" href="https://js.api.here.com/v3/3.0/mapsjs-ui.css?dp-version=1533195059" />
-    <script type="text/javascript" src="https://js.api.here.com/v3/3.0/mapsjs-core.js"></script>
-    <script type="text/javascript" src="https://js.api.here.com/v3/3.0/mapsjs-service.js"></script>
-    <script type="text/javascript" src="https://js.api.here.com/v3/3.0/mapsjs-ui.js"></script>
-    <script type="text/javascript" src="https://js.api.here.com/v3/3.0/mapsjs-mapevents.js"></script>
+    <script type="text/javascript" src="//js.api.here.com/v3/3.0/mapsjs-core.js"></script>
+    <script type="text/javascript" src="//js.api.here.com/v3/3.0/mapsjs-service.js"></script>
+    <script type="text/javascript" src="//js.api.here.com/v3/3.0/mapsjs-ui.js"></script>
+    <script type="text/javascript" src="//js.api.here.com/v3/3.0/mapsjs-mapevents.js"></script>
 
 </head>
 
@@ -59,12 +59,17 @@
             </label>
             </div>
         </div>
-      
-          <!--contenedor botones de login-->
+
+        <!--contenedor botones de login-->
         <div class="container authButtonContainer">
             <div class="row">
+
+                <div class="col m-6">
+                    <button class="btn buttonLogin fb" onclick="facebookLoginWithFirebase()"> 
+
               <div class="col m-6">
                 <button scope="public_profile,email" class="btn buttonLogin fb" onclick="checkLoginState()"> 
+
                   <i class="iconsAuth fab fa-facebook-f"></i>
                   FACEBOOK 
                 </button > 
@@ -92,26 +97,30 @@
           <button onclick="logout()" id="logOutBtn" class="btn logOut" >
               <i class="fas fa-window-close"></i> 
           </button>
-        </div>
-        <!--Cierre Header-->
-        
-        <div id="mapContainer">
-            <!-- map place -->
-        </div>
-        <div class="footerContainer" >
-            <!--Footer-->
-            <button class="btn footerButton" >
-              <i  alt="boton de ver rutas" class="footerIcon fas fa-route"></i>
-            </button>
-            <button class="btn footerButton" >
-              <i alt="boton de activar ruta por voz" class="footerIcon fas fa-headphones"></i>
-            </button>
-            <button id="listButton"  class="btn footerButton" 
-            onclick="changeView()" >
+
+                </div>
+                <!--Cierre Header-->
+                <div id="mapContainer" style="width: 100vw; height: 100vh">
+                    <!-- map place -->
+                </div>
+                <div class="footerContainer">
+                    <!--Footer-->
+                    <button class="btn footerButton">
+            <i  alt="boton de ver rutas" class="footerIcon fas fa-route"></i>
+          </button>
+                    <button class="btn footerButton">
+            <i alt="boton de activar ruta por voz" class="footerIcon fas fa-headphones"></i>
+          </button>
+                    <button class="btn footerButton">
             <i alt="ver lista de lugares de recorrido patrimonial" class="footerIcon fas fa-book-open"></i>
-            </button>
-          </div>
-          <!-- Cierre Footer-->
+          </button>
+                </div>
+                <!-- Cierre Footer-->
+
+        
+        
+       
+
 
     </section>
     <!-- Cierre Seccion MapView -->
@@ -276,5 +285,5 @@
 
 </body>
 
-</html>
 
+</html>
