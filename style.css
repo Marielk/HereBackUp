@@ -1,10 +1,10 @@
 
 .loginMainContainer{
-  display: block;
+  display: none;
 }
 
 .mapViewMainContainer {
-  display: none;
+  display: block;
 }
 
 .placeInfoMainContainer {

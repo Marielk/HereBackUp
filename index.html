@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="src/styles/loginStyle.css">
     <link rel="stylesheet" href="src/styles/mapViewStyle.css">
+    <link rel="stylesheet" href="src/styles/placeListStyle.css">
     <link rel="stylesheet" href="src/styles/placeInfoStyle.css">
     <!--CDN Iconos-->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
@@ -81,8 +82,7 @@
     </section>
     <!-- Cierre Seccion login -->
     
-    </section> <!--fin vista splash-->
-
+   
     <section id="mapSection" class="mapViewMainContainer" >
         <!-- Seccion MapView -->
         <div class="userInfoContainer">
@@ -94,55 +94,103 @@
           </button>
         </div>
         <!--Cierre Header-->
-        <div class="footerContainer" >
-          <!--Footer-->
-          <button class="btn footerButton" >
-            <i  alt="boton de ver rutas" class="footerIcon fas fa-route"></i>
-          </button>
-          <button class="btn footerButton" >
-            <i alt="boton de activar ruta por voz" class="footerIcon fas fa-headphones"></i>
-          </button>
-          <button class="btn footerButton" >
-            <i alt="ver lista de lugares de recorrido patrimonial" class="footerIcon fas fa-book-open"></i>
-          </button>
-        </div>
-        <!-- Cierre Footer-->
+        
         <div id="mapContainer">
             <!-- map place -->
         </div>
+        <div class="footerContainer" >
+            <!--Footer-->
+            <button class="btn footerButton" >
+              <i  alt="boton de ver rutas" class="footerIcon fas fa-route"></i>
+            </button>
+            <button class="btn footerButton" >
+              <i alt="boton de activar ruta por voz" class="footerIcon fas fa-headphones"></i>
+            </button>
+            <button id="listButton"  class="btn footerButton" 
+            onclick="changeView()" >
+            <i alt="ver lista de lugares de recorrido patrimonial" class="footerIcon fas fa-book-open"></i>
+            </button>
+          </div>
+          <!-- Cierre Footer-->
 
     </section>
     <!-- Cierre Seccion MapView -->
 
-
-    <section id="placeSection" class="placeInfoMainContainer">
-        <!-- Seccion PlaceInfo-->
-        <div>
-            <!--Header-->
-            <button><img class="buttonBack" alt="boton para volver al mapa" src=""/>Back</button>
-        </div>
-        <!--Cierre Header-->
-
-        <div>
-            <!--PlaceImage-->
-            <p>Nombre del lugar</p>
-            <img class="buttonBack" alt="Imagen del lugar elegido" src="" />
-
-            <div class="interacionBar">
-                <!--interaccion bar-->
-                <button><img class="buttonLike" alt="boton de dar me gusta al lugar" src=""/></button>
-                <button><img class="buttonLike" alt="boton de no dar no me gusta" src=""/></button>
-                <button><img class="buttonLike" alt="boton de comentarios" src=""/></button>
+    <!-- Seccion placeList-->
+    <section id="placeList" class="placeListMainContainer container">
+        <!--Header-->
+        <div class="container-fluid userInfoContainer" > 
+          <div class="row" >
+            <div class="col-12" >          
+              <button class="backBtn" id="backButtonList" >
+                <i class="backBtnIcon fas fa-arrow-circle-left"></i>
+              </button>
+              <p class="userInfoText title" > 
+                Listado de lugares para explorar
+              </p>
             </div>
-            <!--Cierre interaccion bar-->
+          </div>        
+        </div>  <!--Cierre Header-->  
+  
+          <!--body de section-->
+          <div class="container-fluid"> 
+            <!--PlaceList-->
+            <div class="row"> 
+              <div class="col-8" >
+                <div id="placeNewList" class="hidden container-fluid"></div>
+              </div>              
+            </div>  
+            <!-- Cierre PlaceList-->
+          </div>  
+      </section>
+      <!-- Cierre Seccion placeList -->
 
-        </div>
-        <!-- Cierre PlaceImage-->
-        <div listContent>
-            <!--InfoPlaceText-->
-            <p> Informacion del lugar elegido</p>
+    <!-- Seccion PlaceInfo-->
+    <section id="placeSection" class="placeInfoMainContainer container">
+      <!--Header-->
+      <div class="container-fluid userInfoContainer" > 
+        <div class="row" >
+          <div class="col-12" >          
+            <button class="backBtn"  id="backButton" >
+              <i  class="backBtnIcon fas fa-arrow-circle-left"></i>
+            </button>
+          </div>
+        </div>        
+      </div>  <!--Cierre Header-->  
+
+        <!--body de section-->
+        <div class="container-fluid">
+
+          <!--PlaceImage-->
+          <div class="row"> 
+            <div class="col-8" >
+              <img class="" alt="Imagen del lugar elegido" src="" />
+            </div>              
+          </div>  <!-- Cierre PlaceImage-->
+
+          <!--interaccion bar-->
+          <div class="interacionBar">         
+              <button><img class="buttonLike" alt="boton de dar me gusta al lugar" src=""/></button>
+              <button><img class="buttonLike" alt="boton de no dar no me gusta" src=""/></button>
+          </div>
+          <!--Cierre interaccion bar-->
+
+        
+        <!--InfoPlaceText-->
+        <div>   
+          <p id="" > Informacion del lugar elegido</p>
         </div>
         <!--Cierre InfoPlaceText-->
+
+        <!--iconos accesibles-->
+        <div>
+
+        </div>
+        <!--cierre iconos accesibles-->
+
+      </div>
+        <!--Cierre InfoPlaceText-->
+
     </section>
     <!-- Cierre Seccion PlaceInfo -->
 
@@ -171,7 +219,7 @@
 
     <script src="src/scripts/mapModel.js"></script>
     <script src="src/scripts/placeInfoView.js"></script>
-  
+    <script src="src/scripts/loginModel.js"></script>
     <script src="./node_modules/artyom.js/build/artyom.window.js"></script>
     <script src="src/scripts/optionVoiceModel.js"></script>
   
