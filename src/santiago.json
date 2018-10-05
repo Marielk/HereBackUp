@@ -1,601 +1,445 @@
 {
-  "lugares": [{
-    "lugar1": {
-      "nombre": "Museo de Arte Colonial",
-      "direccion": "Av Libertador Bernardo O’Higgins, 834",
-      "coordenadas": "-33.443743, -70.647769",
-      "img": "https://circuitosinclusivos.gobiernosantiago.cl/wp-content/uploads/2017/08/Hito%201.%20Iglesia%20y%20Convento%20de%20San%20Francisco%20y%20Museo%20de%20Arte%20Colonial.jpg",
-      "description": "Comenzamos el Circuito de Santiago histórico, con la Iglesia y convento de San Francisco, siendo el  edificio más antiguo de la ciudad. Tras la fundación de Santiago, Pedro de Valdivia elevó una petición al cabildo para solicitar un terreno  con el fin de levantar una ermita en honor a la Virgen del Socorro, ya que los creyentes de aquél entonces le atribuían a la posesión de esta iconografía el haber sobrevivido a los ataques indígenas y hasta el día de hoy se emplaza en el altar mayor de la Iglesia.",
-      "acceso": "si",
-      "baños": "si",
-      "visitas guiadas": "si"
-    },
-    "lugar2": {
-      "nombre": "Universidad de Chile",
-      "direccion": "Av. Libertador Bernardo O’Higgins 1058",
-      "coordenadas": "-33.4444861, -70.6508667",
-      "img": "https://circuitosinclusivos.gobiernosantiago.cl/wp-content/uploads/2017/06/Hito-2-Universidad-de-Chile-1024x568.jpg",
-      "description": "La universidad de Chile es uno de los edificios más característicos en el centro de Santiago, debido a su gran aporte al desarrollo espiritual y material del país.
-  Si bien la Universidad de Chile fue fundada en 1842 la construcción de su edificio, de arquitectura neoclásica francesa de dos pisos, comenzó en 1863 concluyendo en 1872. Cuenta con un gran vestíbulo y un salón de honor de doble altura rodeado de columnas de estilo dórico donde se destaca el Mural de Mario Toral Muñoz.",
-     "acceso": "si",
-      "baños": "si",
-      "audioguia": "no",
-      "visitas guiadas": "no"
-    },
-    "lugar3": {
-      "nombre": "Club de la Unión",
-      "direccion": "Avda. Libertador Bernardo O’Higgins 1091",
-      "coordenadas": "-33.439798, -70.6398329",
-      "img": "https://circuitosinclusivos.gobiernosantiago.cl/wp-content/uploads/2017/06/Hito-3-Club-de-la-union-1024x675.jpg",
-      "description": "Desde los tiempos de la colonia, compartir con amigos conversaciones o debates, fue y ha sido un hábito de la sociedad chilena. Con la llegada de la Independencia, las reuniones políticas se hicieron más frecuentes.
-  La falta de lugar donde se pudiera discutir sobre temas políticos (liberales y conservadores), es que en julio de 1864, nace la idea de crear un espacio para la tolerancia y el entendimiento de los hombres de distintas corrientes fundándose el Club de la Unión, donde hasta nuestros días se reúnen generaciones de destacados hombres de negocio, industriales, profesionales, políticos y diplomáticos a debatir importantes acontecimientos tanto nacionales como internacionales.",
-     "acceso": "no",
-      "baños": "no",
-      "audioguia": "no",
-      "visitas guiadas": "no"
-    },
-    "lugar4": {
-      "nombre": "Bolsa de Comercio",
-      "direccion": "Calle La Bolsa 64",
-      "coordenadas": "-33.4426311, -70.6517394",
-      "img": "https://circuitosinclusivos.gobiernosantiago.cl/wp-content/uploads/2017/06/Hito-4-Bolsa-de-comercio-923x1024.jpg",
-      "description": "Este magnífico edificio de cuatro pisos que ocupa toda la manzana de planta triangular, se encuentra situado en pleno Santiago. Con un estilo renacentista francés con finas terminaciones interiores y exteriores, fue construido entre 1913 y 1917 por el arquitecto Emile Jecquier, en terrenos pertenecientes a las monjas Agustinas. Tras el terremoto que afectó a Chile en 1985, fue restaurado.
-  
-  Es el principal centro de operaciones bursátiles de Chile, siendo su espacio dominante la clásica Sala de Rueda. También podemos encontrar el Salón de Accionistas, el Salón de Recibo y las Oficinas de los Corredores que tienen acceso directo a la calle.",
-     "acceso": "si",
-      "baños": "no",
-      "audioguia": "no",
-      "visitas guiadas": "no"
-    },
-    "lugar5": {
-      "nombre": "Edificio Ex Hotel Mundial",
-      "direccion": " Moneda 1069",
-      "coordenadas": "-33.4449058, -70.654855",
-      "img": "https://circuitosinclusivos.gobiernosantiago.cl/wp-content/uploads/2017/06/Hito-5-Ex-hotel-Mundial.jpg",
-      "description": "Al igual que el edificio de la Bolsa de Comercio se encuentra edificado en terrenos pertenecientes a las Monjas Agustinas, inserto en el barrio financiero de Santiago.
-  La compañía de Seguros mundial, compro el terreno para construir ahí su edificio corporativo siendo inaugurado en 1923, destacándose por su arquitectura clásica francesa, su planta triangular con su cúpula que lo corona, el balcón de balaustros en su fachada y enormes columnas.
-  
-  Luego de doce años el edificio fue arrendado y se convirtió en el lujoso Hotel Mundial hasta 1975. Posterior a esto sus dueños deciden cambiar de rubro, y hasta la actualidad ha sido utilizada como sede bancaria. Hoy en día alberga oficinas del Banco BBVA.",
-     "acceso": "no",
-      "baños": "no",
-      "audioguia": "no",
-      "visitas guiadas": "no"
-    },
-    "lugar6": {
-      "nombre": "Plaza de la Constitución",
-      "direccion": "Moneda 1240",
-      "coordenadas": "-33.4417302, -70.6542274",
-      "img": "https://circuitosinclusivos.gobiernosantiago.cl/wp-content/uploads/2017/06/Hito-6-Plaza-de-la-Constituci%C3%B3n-1024x683.jpg",
-      "description": "Ubicada en el acceso norte del Palacio de La Moneda, en sus orígenes la actual Plaza de la Constitución era parte del trazado de la ciudad, albergando esta manzana y sus alrededores las residencias de Manuel Blanco Encalada, primer presidente de Chile, y los héroes de la Independencia José Miguel Carrera y Manuel Rodríguez.
-  
-  En 1930 se comienza con una larga transformación en los alrededores del palacio, el proyecto contemplaba dar un mayor realce a la sede de gobierno destacando la importancia del Poder Ejecutivo luego de un prolongado periodo de régimen parlamentario. La plaza fue planificada como parte del “Barrio Cívico” diseñado por el urbanista austriaco Karl Brunner, que concentraría los ministerios y principales edificios públicos. La plaza nacida de esta remodelación se convirtió en escenario de diferentes manifestaciones sociales, concentraciones políticas y ceremonias oficiales. En la década de 1980 adquiriría su diseño actual con la construcción del triángulo que enfrenta al palacio.",
-     "acceso": "si",
-      "baños": "no",
-      "audioguia": "no",
-      "visitas guiadas": "no"
-    },
-    "lugar7": {
-      "nombre": "Intendencia Metropolitana",
-      "direccion": "Morandé 93",
-      "coordenadas": "-33.4424153, -70.653214",
-      "img": "https://circuitosinclusivos.gobiernosantiago.cl/wp-content/uploads/2017/06/Hito-7-intendencia.jpg",
-      "description": "Este edificio que deslumbra por su riqueza arquitectónica, fue en su comienzo una casa de estilo colonial del Capitán de fragata de la Real Armada francesa Don Juan Francisco Briand de Morandis, fundada en 1902. Dos años más tarde el terreno fue comprado por un grupo de dirigentes del partido conservador Joaquín Echeñique Gandarillas y Alberto González Errázuriz, encargando los planos del nuevo edificio al arquitecto Manuel Cifuentes Gómez, que realizó un inmueble de estilo neoclásico francesa.
-  
-  Los dirigentes instalaron ahí el “Diario Ilustrado”, llamado así por el uso de la fotografía considerado el mayor avance tecnológico de la época. Caracterizándose por denunciar la corrupción administrativa citando nombres y apellidos.
-  Ya en 1928, bajo el gobierno del Presidente Carlos Ibañéz compra el edificio para convertirlo en sede de la Intendencia de Santiago. La idea era construir un barrio cívico en torno al Palacio de la Moneda.",
-     "acceso": "si",
-      "baños": "si",
-      "audioguia": "no",
-      "visitas guiadas": "no"
-    },
-    "lugar8": {
-      "nombre": "Palacio de la Moneda",
-      "direccion": "Manzana comprendida por las calles Morandé, Moneda, Teatinos y Avda. Libertador Bernardo O’Higgins.",
-      "coordenadas": "-33.4428439, -70.6542201",
-      "img": "https://circuitosinclusivos.gobiernosantiago.cl/wp-content/uploads/2017/06/Hito-8-Palacio-de-la-moneda-1024x376.jpg",
-      "description": "Es considerada la principal obra del neoclasicismo en Chile, diseñada por el arquitecto Joaquín Toesca, inaugurado en 1805.
-  Hacia 1730 la economía de Chile sufría una gran depresión, es así como el adinerado comerciante español don Francisco García Huidobro se constituyó como Tesorero Perpetuo, y adquirió la casa de la esquina sur poniente de Huérfanos con Morandé, conocida como Palacio Viejo. El 10 de septiembre de 1749 en ese lugar es acuñada en oro la primera moneda con la imagen del Rey Fernando VI.
-  
-  Con el tiempo la casa de moneda se trasladó a terrenos de los Teatinos, lugar escogido por Toesca para dar comienzo con las obras en 1784. De un estilo neoclásico y con influencias del dórico romano, el edificio es un volumen horizontal. Orienta su fachada principal hacia la calle Moneda.
-  Ya en 1846 bajo el gobierno del Presidente Manuel Bulnes, el edificio se convirtió en residencia presidencial y sede de gobierno, aunque hasta 1922 se realizaron en él las labores de acuñación de moneda.",
-     "acceso": "si",
-      "baños": "si",
-      "audioguia": "no",
-      "visitas guiadas": "no"
-    },
-    "lugar9": {
-      "nombre": "Banco Central de Chile",
-      "direccion": "Agustinas 1180",
-      "coordenadas": "-33.4411116, -70.6530943",
-      "img": "https://circuitosinclusivos.gobiernosantiago.cl/wp-content/uploads/2017/06/Hito-9-Banco-Central-de-Chile-1024x683.jpg",
-      "description": "Este enorme edificio abarca una manzana entre Ahumada, Huérfanos, Estado y Calle Agustinas, terreno que pertenecía al Arzobispo de Santiago y Joaquín Larraín Gandarillas, que en 1909 le vendieron el terreno al Banco.
-  
-  Se encargó la construcción al arquitecto Alberto Siegel Lubbe en 1921, quien diseñó un imponente edifico de estilo neoclásico, donde destaca una cúpula central, escaleras de mármol y amplios espacios pensados para la atención de público. La inauguración oficial fue en 1926, reemplazando al edifico ubicado en huérfanos que hasta ese entonces había sido la sede central del banco.
-  La nueva construcción fue catalogada en esa época por el Diario Ilustrado como “un palacio que era un orgullo arquitectónico para la ciudad“. En su interior cuenta con el Museo Numismático ubicado en el hall del primer piso, que conserva con una colección de monedas y billetes representativos de distintas épocas. El 10 de marzo de 2016, fue declarado monumento histórico ya que representa un periodo de crecimiento y consolidación de la función pública del centro de Santiago.
-  
-  ",
-     "acceso": "si",
-      "baños": "no",
-      "audioguia": "no",
-      "visitas guiadas": "no"
-    },
-    "lugar10": {
-      "nombre": "Palacio de los Tribunales de Justicia",
-      "direccion": "Compañía 1140",
-      "coordenadas": "-33.4386405, -70.6531552",
-      "img": "https://circuitosinclusivos.gobiernosantiago.cl/wp-content/uploads/2017/06/Hito-10-Palacio-de-Tribunales-1024x761.jpg",
-      "description": "La gran construcción de estilo neoclásico con marcada influencia francesa, fue construida entre 1905 y 1930 en dos etapas. La edificación fue impulsada por el gobierno del ex Presidente Francisco Errázuriz Zañartu. Una de las principales características del edificio es la incorporación de un zócalo que permitió nivelar el inmueble a todo lo ancho, corrigiendo la inclinación propia del centro de la capital. En su interior cuenta con un magnifico hall de tres pisos de altura que cruza toda la longitud del edificio. Lo cubre una llamativa bóveda de estructura metálica y vidrio, donde también destaca un gran vitral de tres paños que es una alegoría sobre la “Justicia Chilena”, traído desde Alemania.",
-      "acceso": "si",
-      "baños": "si",
-      "audioguia": "no",
-      "visitas guiadas": "no"
-    },
-    "lugar11": {
-      "nombre": "Museo Chileno de Arte Precolombino",
-      "direccion": "Bandera 361",
-      "coordenadas": "-33.4390878, -70.6524804",
-      "img": "https://circuitosinclusivos.gobiernosantiago.cl/wp-content/uploads/2017/06/Hito-11-Museo-Chileno--1024x531.jpg",
-      "description": "El museo funciona en una de las más importantes edificaciones de la colonia, de puro estilo neoclásico fue construida por el arquitecto italiano Joaquín Toesca.
-  En este sitio fue donde, en 1555, edificó su casa el primer corregidor de Santiago Don Juan de Cuevas. Luego durante años, fue ocupado por colegios y por la Biblioteca Nacional. Ya en 1805 Toesca toma la casa y realiza un magnifico inmueble para albergar al Palacio de la Real Aduana.
-  
-  A partir de 1845 se transforma en sede de los tribunales de Justicia hasta 1968, donde un gran incendio destruye totalmente las instalaciones y archivos que se encontraban en su interior.
-  Luego de largas restauraciones, en 1981 es destinado al uso completo del Museo.
-  El origen del Museo se basa en la colección personal de su fundador, Sergio Larraín García-Moreno, arquitecto chileno que durante 50 años se dedicó a recolectar variados objetos precolombinos. Por su parte la municipalidad de Santiago se encargó de la restauración y acondicionamiento para albergar la exposición.",
-     "acceso": "si",
-      "baños": "si",
-      "audioguia": "no",
-      "visitas guiadas": "no"
-    },
-    "lugar12": {
-      "nombre": "Ex Congreso Nacional",
-      "direccion": "Compañía 1131",
-      "coordenadas": "-33.4382978, -70.6534947",
-      "img": "https://circuitosinclusivos.gobiernosantiago.cl/wp-content/uploads/2017/08/Hito%2012.%20Ex%20Congreso%20Nacional%201.jpg",
-      "description": "Es una de los edificios más representativos de la vida democrática del país, edificado en terrenos pertenecientes a los Jesuitas por el arquitecto francés Claude Françoise Brunet.
-  Cuenta con una planta cuadrada donde se destaca la fachada que posee seis columnas de estilo corintio, dos alas destinadas a albergar a la Cámara de Diputados y al Senado que se encuentran divididas por un gran salón de honor.
-  
-  Los hermosos y amplios jardines corresponden al lugar que ocupaba la Iglesia de la Compañía, que el 8 de diciembre de 1863 sufrió un gran incendio que daño seriamente la edificación y fue Guillermo Renner el encargado de diseñar los parques después de trágico evento. Allí podemos encontrar en recuerdo de las víctimas del incendio en una estatua de mármol que representa a una Virgen.
-  Luego de las restauraciones fue inaugurado en 1901, siendo una de las primeras obras hecha de hormigón armado en Chile. Fue sede del Congreso Nacional hasta el 11 de septiembre de 1973 donde paso a ser el Ministerio de justicia hasta el fin de la dictadura. Finalmente fue utilizado por la Cancillería hasta el año 2006 donde se comenzó a tramitar el retorno de las dependencias a las autoridades del congreso.",
-     "acceso": "si",
-      "baños": "si",
-      "audioguia": "no",
-      "visitas guiadas": "no"
-    },
-    "lugar13": {
-      "nombre": "Plaza de Armas",
-      "direccion": "Se encuentra entre las calles Merced, Ahumada, Monjitas y Estado.",
-      "coordenadas": "-33.4372243, -70.6499673",
-      "img": "https://circuitosinclusivos.gobiernosantiago.cl/wp-content/uploads/2017/05/plaza-de-armas-santiago-de-chile.jpg",
-      "description": "Durante el período de la colonia y hasta mediados del siglo XIX la Plaza de Armas era solo una explanada que contaba con una fuente que proveía de agua al centro de la ciudad, se llamaba en sus comienzos Plaza Mayor, pero tras el primer ataque de los indígenas fue renombrada a Plaza de Armas debido al campamento militar que adopto la ciudad.
-  
-  En torno a ella se instaló el Cabildo que hoy es la municipalidad de Santiago, la casa de los Gobernante donde funciona el correo central, la Real Audiencia donde hoy podemos encontrar el Museo Histórico Nacional y por supuesto la Iglesia Mayor llamada hoy Catedral Metropolitana.
-  Con el tiempo la plaza de transformo en el centro de actividades sociales, económicas y políticas, incluso funcionó el Mercado de Abastos desde 1600 hasta 1817.",
-     "acceso": "si",
-      "baños": "no",
-      "audioguia": "no",
-      "visitas guiadas": "no"
-    },
-    "lugar14": {
-      "nombre": "Catedral Metropolitana",
-      "direccion": "Plaza de Armas 444",
-      "coordenadas": "-33.4372243, -70.6499673",
-      "img": "https://circuitosinclusivos.gobiernosantiago.cl/wp-content/uploads/2017/06/Hito-14-Catedral--1024x687.jpg",
-      "description": "La Catedral Metropolitana forma parte de un conjunto arquitectónico junto al Palacio Arzobispal y la Parroquia del Sagrario.
-  El conquistador Pedro de Valdivia fue el encargado de destinar el terreno del costado poniente de la Plaza de Armas para levantar la Iglesia Mayor, nombre que fue cambiado a Catedral Metropolitana cuando el Papa Pío IV nombró la ciudad como un extenso obispado.
-  
-  La magnífica edificación se llevo a cabo durante tres siglos, pero debió ser reconstruida en cinco ocasiones producto de incendios y terremotos. El actual inmueble corresponde a la reconstrucción de 1748.",
-     "acceso": "si",
-      "baños": "no",
-      "audioguia": "si",
-      "visitas guiadas": "no"
-    },
-    "lugar15": {
-      "nombre": "Parroquia del Sagrario",
-      "direccion": "Plaza de Armas 444",
-      "coordenadas": "-33.4372243, -70.6499673",
-      "img": "https://circuitosinclusivos.gobiernosantiago.cl/wp-content/uploads/2017/06/HITO-15-PARROQUIA-DEL-SAGRARIO-1024x576.png",
-      "description": "Esta hermosa parroquia que se encuentra al lado de la Catedral y está dedicada a la Patrona de Chile, la Virgen del Carmen.
-  Fue inaugurada en 1863 por el Monseñor Valentín Valdivieso. Luego perfeccionaría el inmueble el arquitecto Ignacio Cremonesi quien concluyó su trabajo en 1905 tal como luce en la actualidad.
-  
-  La Parroquia logra mantener un estilo que equilibra lo austero y lo majestuoso, cuenta con una nave única orientada de norte a sur y su cielo está formado por una bóveda de cañón decorada con escenas religiosas.
-  Originalmente se accedía por la puerta principal que da a Plaza de Armas, pero actualmente existe una entrada desde el interior de la Catedral.",
-     "acceso": "si",
-      "baños": "no",
-      "audioguia": "no",
-      "visitas guiadas": "no"
-    },
-    "lugar16": {
-      "nombre": "Correo Central de Santiago",
-      "direccion": "Catedral 989",
-      "coordenadas": "-33.4370398, -70.6511603",
-      "img": "https://circuitosinclusivos.gobiernosantiago.cl/wp-content/uploads/2017/06/Hito-16-Correo-central-de-Santiago-1024x735.jpg",
-      "description": "Este edificio de estilo renacentista construido por el corregidor de Santiago, Don Rodrigo Antonio Matías Quint de Valdovinos, fue inaugurado en 1715. Cuenta con una planta rectangular y techado por una cubierta vidriada, funcionó como Palacio de los Presidentes de Chile durante el Gobierno de Manuel Bulnes desde 1820 hasta 1846.
-  
-  Tras un incendio que lo afecto en 1881, se inicio la construcción del actual inmueble a cargo del arquitecto Ricardo Brown, que fue destinado al correo.
-  
-  El edificio funciona como las oficinas centrales y secciones de atención al público de Correos de Chile. Una de las últimas restauraciones se llevó a cabo en 1993 en que se renovaron la pintura de las fachadas y patios interiores, la iluminación interior y se cambiaron los cielos por acrílicos.",
-     "acceso": "si",
-      "baños": "si",
-      "audioguia": "no",
-      "visitas guiadas": "no"
-    },
-    "lugar17": {
-      "nombre": "Museo Histórico Nacional",
-      "direccion": "Plaza de Armas 951",
-      "coordenadas": "-33.4372714, -70.650708",
-      "img": "https://circuitosinclusivos.gobiernosantiago.cl/wp-content/uploads/2017/06/Hito-17-Museo-Histo%CC%81rico-1024x809.jpg",
-      "description": "El Museo Histórico Nacional fue fundado en 1982. Su edificio de estilo Neoclásico, fue una obra realizada por el arquitecto Chileno Juan José Goycolea y Zañartu, construido entre 1804 y 1808, para convertirse en la sede del Tribunal de Justicia.
-  
-  En sus dependencias sesionó el Primer Congreso Nacional el 4 de julio de 1811. Luego del triunfo de los patriotas en la Batalla de Chacabuco en 1817, el edificio paso a ser la Casa de Gobierno, hasta que en 1845, donde el Presidente Manuel Bulnes trasladó la sede a la Real Casa de Moneda. Fue sede de la Intendencia de Santiago desde 1847 a 1929 y la oficina de Correos y Telégrafos hasta 1978.
-  
-  Hoy en día es la sede del Museo Histórico Nacional, para lo cual debió ser restaurado y acondicionado para albergar las colecciones histórico-patrimoniales, exhibiendo la historia de Chile desde la época precolombina hasta 1973.
-  
-  ",
-     "acceso": "si",
-      "baños": "si",
-      "audioguia": "no",
-      "visitas guiadas": "no"
-    },
-    "lugar18": {
-      "nombre": "Palacio Consistorial, Municipalidad de Santiago",
-      "direccion": "Costado norte de la Plaza Armas, esquina 21 de Mayo",
-      "coordenadas": "-33.4372714, -70.650708",
-      "img": "https://circuitosinclusivos.gobiernosantiago.cl/wp-content/uploads/2017/06/Hito-18-Palacio-Consistorial-1024x624.jpg",
-      "description": "La hermosa fachada neoclásica, arcos de medio punto y balcón corrido, fue utilizada desde la fundación de Santiago como cabildo y cárcel pública, ésta última es trasladada en 1878 debido al mal estado del inmueble. Entre 1881 y 1883 se ralizan remodelaciones del edificio para ser sede de las dependencias municipales, llamado así desde la constitución de 1823 donde se genera el cambio de nombre de los cabildos por municipalidades.
-  
-  El actual edificio fue construido entre 1785 y 1790, a cargo de Melchor Jaraquemada.
-  
-  En el frontis del edificio destaca el escudo de armas de la ciudad, regalado por el Rey Carlos V en 1552, como signo de consolidación. En su interior cuenta con dos niveles, en el primer piso un hall central y en el segundo el salón de Honor y las oficinas de las autoridades municipales",
-     "acceso": "si",
-      "baños": "si",
-      "audioguia": "no",
-      "visitas guiadas": "no"
-    },
-    "lugar19": {
-      "nombre": "Parroquia San Francisco de El Monte",
-      "direccion": "Plaza Independencia 31",
-      "coordenadas": "-33.6783192, -70.9782465",
-      "img": "https://circuitosinclusivos.gobiernosantiago.cl/wp-content/uploads/2017/05/Hito-1-Parroquia-San-Francisco-de-el-Monte-1024x683.jpg",
-      "description": "Iniciamos el recorrido por el antiguo convento de San Francisco, fundado en 1732 ( siglo XVIII) y declarado monumento nacional en 1974 (siglo XX).
-  
-  La parroquia del convento cuenta con una imponente arquitectura colonial, de gruesos muros de adobe, con una sola nave angosta y profunda.
-  El Altar mayor fue encargado y traído a Chile por pedido de don Pedro de Valdivia.
-  
-  A continuación, visitamos el “Patio de los Naranjos”, lugar que antaño era utilizado por los monjes para la meditación y la lectura.
-  
-  Al costado de la parroquia encontramos la “Capilla de los Hombres”, la que, durante años, fue utilizado como el cementerio del convento.
-  En el año 2014 y tras una larga investigación se recuperó la calavera del Prócer de la Patria José Miguel Carrera, la que descansa en esta parroquia desde entonces.
-  
-  ",
-     "acceso": "no",
-      "baños": "no",
-      "audioguia": "no",
-      "visitas guiadas": "no"
-    },
-    "lugar19": {
-      "nombre": "Museo Patrimonial Contemporáneo. El Monte.",
-      "direccion": "Plaza Independencia Nº31, El Monte.",
-      "coordenadas": "-33.6783192, -70.9782465",
-      "img": "https://circuitosinclusivos.gobiernosantiago.cl/wp-content/uploads/2017/05/Hito-2-Museo-Patrimonial-Contemporaneo-1-1024x683.jpg",
-      "description": "Este Museo fue inaugurado el 29 de mayo del año 2005 por el profesor don Juan Araya Espinoza, su director y fundador, quien, durante 50 años ha recuperado todo tipo de objetos, fotografías e información histórica del pueblo a través de los habitantes del lugar.
-  
-  El museo está compuesto por tres salas de exposiciones y ha sido visitado por 300.000 personas de todas partes del país y del extranjero.
-  
-  ",
-     "acceso": "no",
-      "baños": "no",
-      "audioguia": "no",
-      "visitas guiadas": "no"
-    },
-    "lugar20": {
-      "nombre": "Museo del Libro",
-      "direccion": "Costado Norte de Plaza Independencia",
-      "coordenadas": "-33.6783192, -70.9782465",
-      "img": "https://circuitosinclusivos.gobiernosantiago.cl/wp-content/uploads/2017/05/Hito-3-Museo-del-Libro-1024x683.jpg",
-      "description": "Este museo y la plazoleta fueron creados 23 de abril de 2013, en el marco de la celebración el Día Mundial del Libro y en homenaje al escritor montino José Santos González Vera, nacido en San Francisco de El Monte (1897 – 1970) quien, además fue reconocido por su obra con el Premio Nacional de Literatura en el año 1950. Gracias al esfuerzo del Profesor Juan Araya se recopiló la información del escritor y de sus libros.
-  
-  Sabías que?
-  La intención del museo es dar a conocer la obra literaria del escritor González Vera y así evitar que caiga en el olvido. Se muestran ejemplares de los libros del autor que datan de 1950.",
-     "acceso": "no",
-      "baños": "no",
-      "audioguia": "no",
-      "visitas guiadas": "no"
-    },
-    "lugar21": {
-      "nombre": "Quinta de recreo El Marino",
-      "direccion": "Avenida San Francisco #092, San Francisco de El Monte.",
-      "coordenadas": "-33.68035310461593, -70.97743774049299",
-      "img": "https://circuitosinclusivos.gobiernosantiago.cl/wp-content/uploads/2017/05/Hito-4-Quinta-de-Recreo-el-Marino-1024x812.jpg",
-      "description": "Esta quinta de recreo y restaurante le debe su nombre a Don Lázaro Segundo Bernal Donoso conocido como “El Marino” legado de Valparaíso, su origen fue en 1942 y hasta 1952 era conocido bajo el nombre de “Danubio”. Desde su nacimiento ha sido un lugar de encuentro de artistas, periodistas e incluso presidentes. Actualmente, es atendido por los hijos del dueño Don Lázaro Segundo Bernal Donoso, Sergio Bernal y Julio Bernal.
-  
-  Es un lugar de comida con identidad chilena y actividades folklóricas.",
-     "acceso": "si",
-      "baños": "no",
-      "audioguia": "no",
-      "visitas guiadas": "no"
-    },
-    "lugar22": {
-      "nombre": "Viña Doña Javiera",
-      "direccion": "Fundo San Miguel s/n, El Monte",
-      "coordenadas": "-33.674695740430664, -70.97035949535298",
-      "img": "https://circuitosinclusivos.gobiernosantiago.cl/wp-content/uploads/2017/05/Hito-5-vin%CC%83a-Don%CC%83a-Javiera-1024x683.jpg",
-      "description": "Esta viña se encuentra ubicada en el antiguo fundo San Miguel de El Monte que perteneció a la familia Carrera, cuna del prócer de la patria José Miguel y toda su parentela.
-  Cuenta con 665 hectáreas de extensión y fue declarada Monumento Histórico en 1974.
-  
-  En la actualidad, se encuentra en manos de la familia Yávar Correa , con sus bodegas, viñas y parque muy bien conservados y acondicionados para recibir turistas. La casa cuenta con árboles autóctonos de más de 250 años.
-  
-  Después de la Batalla de Rancagua , José Miguel Carrera se ocultó con parte de sus tropas, en el lugar, escapando de O’Higgins; se cree que lo hizo utilizando un túnel de más de un kilómetro de largo que existe en la propiedad , hasta la Iglesia parroquial. Se cree que aquí fue donde doña Javiera Carrera, bordó la primera bandera de Chile, la de la Patria Vieja.",
-     "acceso": "si",
-      "baños": "no",
-      "audioguia": "no",
-      "visitas guiadas": "no"
-    },
-    "lugar23": {
-      "nombre": "Casa de la cultura Talagante",
-      "direccion": "Av. Bernardo O´Higgins N°3201. Costado Balneario Tegualda.",
-      "coordenadas": "-33.6739202, -70.9516863",
-      "img": "https://circuitosinclusivos.gobiernosantiago.cl/wp-content/uploads/2017/05/Hito-6-Casa-de-la-Cultura.jpg",
-      "description": "Esta Casa surge como un espacio de difusión de las artes y la mantención de la cultura de la zona, promoviendo las diversas expresiones artísticas que apoyan la identidad local.
-  
-  Es una corporación sin fines de lucro donde si imparten más de 30 talleres, algunos con pagadas y otras gratuitos. Esta moderna edificación terminada en el año 2012 baso su arquitectura en el edificio del GAM de Santiago.
-  
-  Sabías que?
-  Tienen un museo de Loza Policromada, arte característico del lugar , con más de doscientos años de antigüedad y que se ha traspasado de generación en generación.",
-     "acceso": "si",
-      "baños": "si",
-      "audioguia": "no",
-      "visitas guiadas": "no"
-    },
-    "lugar24": {
-      "nombre": "Centro Cultural Teatro Plaza",
-      "direccion": "Al ingresar a Talagante, a un costado de Plaza de Armas de la comuna",
-      "coordenadas": "-33.66431735953527, -70.93136931335444",
-      "img": "https://circuitosinclusivos.gobiernosantiago.cl/wp-content/uploads/2017/05/Hito-7-Centro-Cultural-Teatro-Plaza-1024x683.jpg",
-      "description": "El ex Cine Plaza (1948), es desde julio de 2011 un Centro Cultural, en donde convergen, en un diálogo permanente, los artistas y la comunidad; rock, poesía, danza, artes visuales, teatro, audiovisual y artesanía, encuentran un espacio de difusión e interacción con nuevas audiencias y la posibilidad de mostrar su trabajo. Tiene un espacio con capacidad para 290 personas donde se pueden realizar o exponer muestras artísticas culturales.
-  
-  Su administración depende de la Corporación Cultural de Talagante.
-  
-  Sabías que?
-  Se cuenta una historia en relación a su creación que habla de la extraña desaparición de unos ancianos que cuidaban el lugar y la que ha pasado a ser parte de un mito urbano.",
-     "acceso": "si",
-      "baños": "si",
-      "audioguia": "no",
-      "visitas guiadas": "no"
-    },
-    "lugar25": {
-      "nombre": "Parroquia Inmaculada Concepción",
-      "direccion": "Av. Bernardo O´Higgins N°1295. Costado Municipalidad de Talagante.",
-      "coordenadas": "-33.66500102295024, -70.93096979906225",
-      "img": "https://circuitosinclusivos.gobiernosantiago.cl/wp-content/uploads/2017/05/Hito-8-Parroquia-inmaculada-concepcion-1024x713.jpg",
-      "description": "Principal templo católico de la Comuna, fue erigido el 13 de octubre del 1824 por el Arzobispo Ignacio Cienfuegos; su primera sede estaba en el Convento de San Francisco de El Monte, su segunda sede, es la actual en la Plaza de Talagante, desde el 09 de junio de 1893 por decreto de Monseñor Rafael Valentín Valdivieso. Cuenta con la imagen de una Virgen de 2,80 metros de altura, la que fue fabricada en un sólo bulto de madera. Ha sido restaurada en el año 2017.
-  
-  Sabías qué?
-  El lugar cuenta con unas reliquias muy apreciadas, que son unas pequeñas astillas de los huesos del dedo índice de Santa Teresa de Ávila y de San Juan de la Cruz
-  Estos fragmentos santos se encuentran sellados por el Vaticano y puestos en el centro del altar.",
-     "acceso": "si",
-      "baños": "si",
-      "audioguia": "no",
-      "visitas guiadas": "no"
-    },
-    "lugar26": {
-      "nombre": "Santuario Nuestra Señora de la Merced",
-      "direccion": "Santelices, 432 Isla de Maipo Santiago.",
-      "coordenadas": "-33.75498871687793, -70.90045518195848",
-      "img": "https://circuitosinclusivos.gobiernosantiago.cl/wp-content/uploads/2017/05/Hito-9-Santuario-Nuestra-Sen%CC%83ora-de-La-Merced-1024x683.jpg",
-      "description": "Es el principal templo católico de Isla de Maipo y una de las edificaciones más características del pueblo, su construcción data de 1883, posee una torre donde está el campanario central, con un estilo neoclásico. Tal como muchas otras edificaciones de la zona central, este templo soportó el fuerte sismo de agosto de 1906, pero los daños que recibió obligaron a reedificarlo a partir de 1926.
-  
-  Sabías Que?
-  En 1829 una inundación causada por el desborde del río Maipo arrasó la zona y los sobrevivientes se refugiaron en el santuario donde le hicieron una promesa a la Virgen si ella los ayudaba. La llevaron río arriba, después de un día y una noche el río cambio su cauce definitivamente salvándose al pueblo. El último domingo de septiembre se conmemora este milagro y el pueblo se viste de fiesta.
-  
-  ",
-     "acceso": "si",
-      "baños": "si",
-      "audioguia": "no",
-      "visitas guiadas": "no"
-    },
-    "lugar27": {
-      "nombre": "Casona Quezada",
-      "direccion": "Santelices 13, Isla de Maipo, Región Metropolitana",
-      "coordenadas": "-33.7461513598069, -70.92561622217559",
-      "img": "https://circuitosinclusivos.gobiernosantiago.cl/wp-content/uploads/2017/05/Hito-10-Casona-Quezada-1-1024x707.jpg",
-      "description": "Hoy conocida como Casona Quezada López es una ruta Turística, ubicada en Isla de Maipo, Región Metropolitana.
-  
-  “La Casona Quezada, pertenece hoy a Don Claudio Quezada, bisnieto del primer Alcalde de la comuna de Isla de Maipo, Don David López Vásquez. Data de 1875 y en su interior conserva, el mobiliario de la época heredado por la familia y que invita a sus visitantes a pasear por sus instalaciones, su arquitectura de estilo colonial y jardines que reviven el pasado en tiempos actuales.”
-  
-  Esta casona patrimonial fue construida en adobe hacia 1875. Se conservan en su fachada los faroles propios de la arquitectura colonial del siglo XIX. También, se mantienen muebles de la época como, sillones, sillas y un gran comedor, los que se encuentran con el nombre de quién los adquirió y la generación a la que perteneció. Originalmente la propiedad ocupaba más de dos cuadras y funciono la primera escuela de mujeres y una sede de carabineros.
-  
-  ",
-     "acceso": "no",
-      "baños": "no",
-      "audioguia": "no",
-      "visitas guiadas": "no"
-    },
-    "lugar28": {
-      "nombre": "Casona de Los Mesa",
-      "direccion": "Lillo 371, Isla de Maipo",
-      "coordenadas": "-33.75365649205866, -70.89356659438052",
-      "img": "https://circuitosinclusivos.gobiernosantiago.cl/wp-content/uploads/2017/05/Hito-11-Casona-De-Lo-Mesa-1024x683.jpg",
-      "description": "La Casona de los Mesa se encuentra ubicada en la Isla de Maipo, es patrimonio histórico de la comuna y ha permanecido en esta familia durante cinco generaciones.
-  
-  Actualmente la casa está algo deteriorada por el terremoto del 2010, pero aún contiene los muebles de la época los que se utilizan para ambientar los eventos que allí se realizan. Se venden licores artesanales y en la actualidad se usa como centro de eventos ambientado en una típica casona rústica de campo con líneas arquitectónicas coloniales. Durante los fines de semana funciona como bar con una carta de tragos y tablas.
-  
-  ¿Sabías que?
-  Se dice que los coches de la Casona de los Mesa, eran los amos y señores de las calles antes de la llegada de los camiones.",
-     "acceso": "si",
-      "baños": "no",
-      "audioguia": "no",
-      "visitas guiadas": "no"
-    },
-    "lugar29": {
-      "nombre": "Puente de los Carros",
-      "direccion": " Entre Av Recoleta y Av La Paz",
-      "coordenadas": "-33.43253667236277, -70.65034330833427",
-      "img": "https://circuitosinclusivos.gobiernosantiago.cl/wp-content/uploads/2017/06/HITO-1-PUENTE-LOS-CARROS-1024x575.png",
-      "description": "Comenzamos el recorrido en este puente peatonal que nos comunica sobre el Río Mapocho con La Chimba. Originalmente construido de madera con tensores de hierro servía para transportar los vagones de tranvías para su reparación y mantenimiento en un gran galpón. A principios del Siglo XXI se comenzó a utilizar como lugar de encuentro de artistas y músicos. En lo que antes fueran los galpones de reparación de tranvías se transformaron en el mercado Vega Chica y el puente se convirtió en su acceso principal.
-  
-  Sabías que?
-  De los 41 puentes que cruzan el Rio Mapocho en la Ciudad de Santiago, el Puente de Los Carros es uno de los cuatro de estructura metálica y es considerado como un ícono emblemático.", 
-     "acceso": "si",
-      "baños": "no",
-      "audioguia": "no",
-      "visitas guiadas": "no"
-    },
-    "lugar30": {
-      "nombre": "Mercado Central",
-      "direccion": " San Pablo 967",
-      "coordenadas": "-33.433619833913355, -70.65101493749097",
-      "img": "https://circuitosinclusivos.gobiernosantiago.cl/wp-content/uploads/2017/06/Hito-2.-Mercado-Central--1024x683.jpg",
-      "description": "Este mercado funcionaba en La Plaza de Armas, pero por temas sanitarios fue trasladado a lo que se llamó la “explanada de los abastos” la cual se incendia en 1864 dando paso a la construcción de lo que hoy conocemos como “Mercado central”, el cual es obra de Fermín Vivaceta y es de estilo neoclásico, fue inaugurado en 1872. Consta de 2 anillos hechos en albañilería, uno exterior donde se pueden encontrar gran diversidad de locales comerciales y el anillo interior que se caracteriza por albergar cocinerías y puestos de pescados y mariscos. Esta estructura descata por su belleza y funcionalidad ya que esta diseñada para generar ventilación cruzada, ya que a finales de 1800 no existía aire acondicionado por tanto era necesario crear este tipo de sistemas, al igual que la “linterna” que corona la cubierta, la cual permite que ingrese luz natural.
-  En 2012 la revista National Geographic lo posiciona como el quinto mejor mercado del mundo, por lo cual se transforma en visita obligada para quienes quieren conocer y disfrutar de una inolvidable experiencia culinaria de mar, y si buscas bien, a precios razonables.",
-     "acceso": "si",
-      "baños": "si",
-      "audioguia": "no",
-      "visitas guiadas": "no"
-    },
-    "lugar31": {
-      "nombre": "La Piojera",
-      "direccion": "Aillavilú 1030",
-      "coordenadas": "-33.433545807755394, -70.65215017256392",
-      "img": "https://circuitosinclusivos.gobiernosantiago.cl/wp-content/uploads/2017/06/Hito-3.-La-Piojera-1024x820.jpg",
-      "description": "Icónico bar y restaurante ubicado en la calle Ayllavilu, (antiguo barrio chino) considerado por muchos como “El palacio popular” ya que en él aún se pueden encontrar ejemplos de la gastronomía, iconografía y cultura popular chilena. Su origen se remonta a finales de 1800 cuando era conocido como “Restaurante Santiago Antiguo”, su minuto de fama comienza con la visita del entonces presidente de la república Arturo Alessandri Palma quién a viva voz exclamó: “Como me traen a esta piojera”, desde entonces el lugar toma ese nombre y se convierte en el “bar La piojera” donde el bajo pueblo puede encontrarse con tradiciones populares arraigadas al sentimiento republicano y a la chilenidad, también conocido como “cultura Huachaca” que cada año realiza su cumbre donde se elige un rey y reina, los cuales se comprometen a mantener estas tradiciones.
-  
-  Uno de los tragos más consumidos en este bar es el famoso “terremoto” una bebida alcohólica hecha a base de pipeño, el cual es un vino blanco sin filtrar acompañado de helado de piña, fernet y granadina.
-  
-  Sabías que?
-  Si te animas a beber un terremoto te arriesgas a sentir las réplicas!!!",
-     "acceso": "si",
-      "baños": "si",
-      "audioguia": "no",
-      "visitas guiadas": "no"
-    },
-    "lugar32": {
-      "nombre": "Estación Mapocho",
-      "direccion": "Avenida Balmaceda en Plaza de la Cultura S/N",
-      "coordenadas": "-33.43210847848599, -70.65451540314942",
-      "img": "https://circuitosinclusivos.gobiernosantiago.cl/wp-content/uploads/2017/06/Hito-4.-Estacion-Mapocho-1024x687.jpg",
-      "description": "Es hoy un espacio patrimonial destinado a la difusión cultural del país y el primero construido en democracia. Originalmente fue construida en honor al primer centenario de la República e inaugurada 1912, su diseño pertenece al arquitecto chileno-francés Emilio Jequer y se caracteriza por la mezcla de albañilería con una imponente bóveda de fierro forjado en Francia y Bélgica. El gran objetivo de esta construcción fue conectar vía tren la capital con las principales ciudades del país, tales como Valparaíso o Iquique en el norte, incluso también conectarse vía Los andes con el ahora extinto “tren andino” para luego seguir a Mendoza y Buenos Aires en Argentina. En la década de los 80 comienza la decadencia del sistema ferroviario en Chile y fue así como en 1987 se puso fin definitivamente a la historia de la Estación Mapocho, pero con ello en 1991 nace el primer centro cultural de Santiago post dictadura.
-  
-  Sabías que?
-  El techo de la estación era de madera y fue reemplazado por planchas cobre para darle mayor identidad nacional, tuvo que ser tratado especialmente para soportar la corrosión y el smog.",
-     "acceso": "si",
-      "baños": "si",
-      "audioguia": "no",
-      "visitas guiadas": "no"
-    },
-    "lugar33": {
-      "nombre": "Antiguo Instituto de Higiene",
-      "direccion": "Av. Independencia #56",
-      "coordenadas": "-33.431419431834186, -70.65313271663635",
-      "img": "https://circuitosinclusivos.gobiernosantiago.cl/wp-content/uploads/2017/08/Hito%205.%20Antiguo%20Instituto%20de%20Higiene.jpg",
-      "description": "Este organismo nace en 1892, fue conocido también como “Desinfectorio público”, fue creado fundamentalmente a raíz del foco infeccioso generado por soluciones habitacionales tipo ranchos o conventillos que se tomaron principalmente el centro de Santiago y sectores ponientes de la capital, ocupadas por la masas de migrantes acostumbrados a vivir en condiciones de hacinamiento por lo que al final del siglo XIX Chile ostentaba el record mundial de mortalidad infantil, cada año la viruela, el cólera y la tuberculosis acababa con miles de vidas. La construcción albergó los estudios de las condiciones de higiene pública en Santiago, al igual que los equipos técnicos y el personal destinado a la desinfección de estas viviendas.
-  
-  El instituto fue el pionero de la educación de la salud pública en cuanto a la vacunación y prevención de enfermedades, fue cerrado en 1924 y es hoy en día un Monumento Histórico que alberga las oficinas de la Policía Federal de Investigaciones.
-  
-  Sabías que?
-  Este lugar fue utilizado como centro de detención en la época de la dictadura.",
-     "acceso": "no",
-      "baños": "no",
-      "audioguia": "no",
-      "visitas guiadas": "no"
-    },
-    "lugar34": {
-      "nombre": "Iglesia de las Carmelitas",
-      "direccion": "Borgoño 1047",
-      "coordenadas": "-33.430319790209836, -70.65354176363348",
-      "img": "https://circuitosinclusivos.gobiernosantiago.cl/wp-content/uploads/2017/06/Hito-6-Iglesia-de-las-carmelitas-925x1024.jpg",
-      "description": "Conocida como la iglesia de “Los Carmelitos “ aunque el nombre oficial de esta iglesia es “Parroquia del niño Jesús de Praga” destaca por su torre hexagonal y su estilo Neo Gótico, es una de las pocas construcciones de este tipo que podemos encontrar en Santiago, debido a que no suelen ser muy resistente a sismos. Pertenece a la congregación de “Carmelitas descalzas” y se hizo famosa a principios del siglo 20 cuando en el antiguo templo ubicado en el mismo lugar ocurrió un “milagro” protagonizado por la señora Rosa Fernández de Ruiz Tagle (Tía de Santa teresa de Los Andes) quien padecía de un problema en su pierna, lo cual la obligaba a utilizar una bota ortopédica, luego de visitar varios médicos, la mujer acude a la iglesia a pedir el milagro de la sanación, la historia dice que luego de orar al milagroso “Niño Jesús de Praga” ella se sana, a a partir de eso, la iglesia comienza a tener fama y se convierte en lugar de peregrinaje. Fue así como muchas personas influyentes donan grandes cantidades de dinero para la construcción del actual templo que data de 1916.
-  
-  Sabías que?
-  La parroquia es objeto de ciertas leyendas que rondan en el barrio, como supuestas galerías subterráneas que conectarían con el templo de San Rafael por debajo de la avenida Independencia.",
-     "acceso": "si",
-      "baños": "si",
-      "audioguia": "no",
-      "visitas guiadas": "no"
-    },
-    "lugar35": {
-      "nombre": "Pérgolas",
-      "direccion": "Avenida Paz #50",
-      "coordenadas": "-33.43151650632162, -70.65199229228152",
-      "img": "https://circuitosinclusivos.gobiernosantiago.cl/wp-content/uploads/2017/06/pergolas-1024.jpg",
-      "description": "Este mercado de flores surge a principios de 1900 cuando vendedores informales vendían flores a la salida de la iglesia de San Francisco. Esto fue así hasta que el alcalde Urzua les otorgó permiso para instalarse de forma más ordenada con mesones, no fue hasta 1927 en que se edifica una construcción más solida. Esta permanece hasta 1948 cuando un proyecto de ensanche de la alameda los obliga a trasladarse hasta su actual ubicación, a un costado del mercado “Tirso de molina”.
-  
-  La actual construcción data del año 2005 cuando se construye la autopista “costanera norte” que obliga a ordenar el sector y donde se genera una oportunidad de mejorar y modernizar las instalaciones que hasta ese minuto eran precarias.
-  
-  Sabías que?
-  Este sitio fue tan característico que inspiró la famosa obra musical chilena “La Pérgola de las Flores” de 1960.",
-     "acceso": "si",
-      "baños": "si",
-      "audioguia": "no",
-      "visitas guiadas": "no"
-    },
-    "lugar36": {
-      "nombre": "Mercado Tirso de Molina",
-      "direccion": "Sta. María 409, Recoleta",
-      "coordenadas": "-33.43182879882733, -70.65046053576353",
-      "img": "https://circuitosinclusivos.gobiernosantiago.cl/wp-content/uploads/2017/06/HITO-8-MERCADO-TIRSO-DE-MOLINA-2-1024x576.png",
-      "description": "Otra cita obligada para los amantes de la gastronomía con precios accesibles, este tradicional mercado minorista de frutas, verduras y abarrotes lleva este nombre en homenaje al dramaturgo, poeta y narrador español del Barroco del siglo XVII, Tirso de Molina, pseudónimo de fray Gabriel Téllez. El origen del mercado data de mediados de la década del 50 cuando comerciantes informales se instalaban al costado del terminal de tranvías, pasados los años se establecen ya autorizados por el municipio de recoleta en puestos precarios. No fue hasta el año 2005 con la construcción de la autopista costanera norte que moderniza sus instalaciones.
-  
-  En su interior se encuentra la primera cafetería mapuche “Newen Lamngen” (Fuerza de Mujer).
-  
-  Sabías que?
-  Su arquitectura frontal representa árboles en fila, que por el diseño dejan entrar haces de luz que refleja y dibuja en los pisos del mercado diversas formas, dejando la sensación de encontrarse bajo la sombra de los árboles.",
-     "acceso": "si",
-      "baños": "si",
-      "audioguia": "no",
-      "visitas guiadas": "no"
-    },
-    "lugar37": {
-      "nombre": "La Vega Chica",
-      "direccion": "Artesanos 719",
-      "coordenadas": "-33.43113563757046, -70.6499521227963",
-      "img": "https://circuitosinclusivos.gobiernosantiago.cl/wp-content/uploads/2017/06/HITO-9-LA-VEGA-CHICA-1024x679.png",
-      "description": "Este mercado le debe su existencia a la desaparición de los tranvías en Santiago, dado que era el lugar donde se reparaban y se les hacia el mantenimiento. Ubicado Justo al frente del Mercado Tirso de Molina hacia el norte, es hoy un sitio que alberga varios locales que ofrecen comidas típicas chilenas y de otras culturas predominando la comida peruana que supo ocupar un lugar de elite por saber sacar provecho al máximo de la reconocida calidad de los pescados y mariscos que ofrece Chile.
-  
-  Sabías que?
-  En La Vega Chica se jactan de hacer el mejor ceviche que se ofrece en todo Chile.",
-     "acceso": "si",
-      "baños": "si",
-      "audioguia": "no",
-      "visitas guiadas": "no"
-    },
-    "lugar38": {
-      "nombre": "Vega Central",
-      "direccion": "Antonia López de Bello 760",
-      "coordenadas": "-33.42925134537823, -70.64937046275315",
-      "img": "https://circuitosinclusivos.gobiernosantiago.cl/wp-content/uploads/2017/08/Hito%2010.%20Vega%20Central.jpg",
-      "description": "Nacido en tiempos de la Colonia fue un sitio de encuentro y entretención nocturna del bajo pueblo. Con apoyo del Estado vivió un fuerte crecimiento en 1895 naciendo el mercado privado denominado como “Vega Central” que finalmente es inaugurado oficialmente en 1916. Hoy en día La vega es el segundo mercado de abastos más grandes de Santiago luego de Lo Valledor.
-  
-  Este paseo es muy recomendable para quienes quieren vivir el día a día de la industria gastronómica y comercial de Santiago, dado que es un mercado concentrador de una gran variedad de productos destacándose las frutas y verduras nacionales e importadas. También encontraras todo tipo de platos típicos para comer en el momento y a precios de bolsillo.
-  
-  Sabías que?
-  Los parroquianos del lugar dicen que… “Después de Dios, La Vega…”",
-     "acceso": "si",
-      "baños": "si",
-      "audioguia": "no",
-      "visitas guiadas": "no"
-    },
-    "lugar39": {
-      "nombre": "Iglesia Recoleta Franciscana",
-      "direccion": "Recoleta 220, Recoleta",
-      "coordenadas": "-33.43027916156453, -70.64783077808111",
-      "img": "https://circuitosinclusivos.gobiernosantiago.cl/wp-content/uploads/2017/08/Hito%2011.%20Iglesia%20Recoleta%20Franciscana.jpg",
-      "description": "En 1645, se levantan los muros que dan vida a la primera capilla del lugar, este lugar fue donado a los primeros Franciscanos llegados Chile.
-  Tras el terremoto de 1730, la iglesia tuvo que ser reconstruida, y es como se encuentra hoy. El arquitecto encardado fue Antonio Vidal que comenzó en 1845.
-  La obra se terminó el año 1864 y se componía de cuatro claustros, cada uno con su patio y corredores.
-  
-  La mas importante labor de la iglesia era su solidaridad, que se graficaba con los comedores diarios que albergaban a decenas de personas en situación de calle.
-  El nombre Recoleta se debe a la labor que realizaban sus integrantes: recolectar las limosnas y donaciones.
-  En 2010 después de trabajos de restauración, se reabre el Museo Fray Andresito, gracias a aporte de los devotos que cooperan en la alcancía del templo.
-  También, cuenta con un comedor que hasta el día de hoy sigue funcionando. Este fue credo en los años 70´que otorga almuerzos a 120 personas de lunes a viernes, en honor a Fray Andresito.
-  
-  Su belleza particular y ser el nexo entre la religión y los habitantes del sector, además de su carga histórica hacen que sea declarada el 24 de julio de 1973 como Monumento Nacional.
-  
-  Sabías que?
-  Andrés Filomeno García, más conocido como Fray Andresito, se desempeñaba como limosnero, y ayudó a reunir los fondos para la construcción de la Iglesia de la Recoleta Franciscana.",
-     "acceso": "si",
-      "baños": "si",
-      "audioguia": "no",
-      "visitas guiadas": "no"
-    }
-  }]
-}
+  "lugares":[
+  {
+  "lugar1":{
+  "nombre":"Museo de Arte Colonial",
+  "direccion":"Av Libertador Bernardo O’Higgins, 834",
+  "coordenadas":"-33.443743, -70.647769",
+  "img":"https://circuitosinclusivos.gobiernosantiago.cl/wp-content/uploads/2017/08/Hito%201.%20Iglesia%20y%20Convento%20de%20San%20Francisco%20y%20Museo%20de%20Arte%20Colonial.jpg",
+  "description":"Comenzamos el Circuito de Santiago histórico, con la Iglesia y convento de San Francisco, siendo el edificio más antiguo de la ciudad. Tras la fundación de Santiago, Pedro de Valdivia elevó una petición al cabildo para solicitar un terreno con el fin de levantar una ermita en honor a la Virgen del Socorro, ya que los creyentes de aquél entonces le atribuían a la posesión de esta iconografía el haber sobrevivido a los ataques indígenas y hasta el día de hoy se emplaza en el altar mayor de la Iglesia.",
+  "acceso":"si",
+  "baños":"si",
+  "visitas guiadas":"si"
+  },
+  "lugar2":{
+  "nombre":"Universidad de Chile",
+  "direccion":"Av. Libertador Bernardo O’Higgins 1058",
+  "coordenadas":"-33.4444861, -70.6508667",
+  "img":"https://circuitosinclusivos.gobiernosantiago.cl/wp-content/uploads/2017/06/Hito-2-Universidad-de-Chile-1024x568.jpg",
+  "description":"La universidad de Chile es uno de los edificios más característicos en el centro de Santiago, debido a su gran aporte al desarrollo espiritual y material del país. Si bien la Universidad de Chile fue fundada en 1842 la construcción de su edificio, de arquitectura neoclásica francesa de dos pisos, comenzó en 1863 concluyendo en 1872. Cuenta con un gran vestíbulo y un salón de honor de doble altura rodeado de columnas de estilo dórico donde se destaca el Mural de Mario Toral Muñoz.",
+  "acceso":"si",
+  "baños":"si",
+  "audioguia":"no",
+  "visitas guiadas":"no"
+  },
+  "lugar3":{
+  "nombre":"Club de la Unión",
+  "direccion":"Avda. Libertador Bernardo O’Higgins 1091",
+  "coordenadas":"-33.439798, -70.6398329",
+  "img":"https://circuitosinclusivos.gobiernosantiago.cl/wp-content/uploads/2017/06/Hito-3-Club-de-la-union-1024x675.jpg",
+  "description":"Desde los tiempos de la colonia, compartir con amigos conversaciones o debates, fue y ha sido un hábito de la sociedad chilena. Con la llegada de la Independencia, las reuniones políticas se hicieron más frecuentes. La falta de lugar donde se pudiera discutir sobre temas políticos (liberales y conservadores), es que en julio de 1864, nace la idea de crear un espacio para la tolerancia y el entendimiento de los hombres de distintas corrientes fundándose el Club de la Unión, donde hasta nuestros días se reúnen generaciones de destacados hombres de negocio, industriales, profesionales, políticos y diplomáticos a debatir importantes acontecimientos tanto nacionales como internacionales.",
+  "acceso":"no",
+  "baños":"no",
+  "audioguia":"no",
+  "visitas guiadas":"no"
+  },
+  "lugar4":{
+  "nombre":"Bolsa de Comercio",
+  "direccion":"Calle La Bolsa 64",
+  "coordenadas":"-33.4426311, -70.6517394",
+  "img":"https://circuitosinclusivos.gobiernosantiago.cl/wp-content/uploads/2017/06/Hito-4-Bolsa-de-comercio-923x1024.jpg",
+  "description":"Este magnífico edificio de cuatro pisos que ocupa toda la manzana de planta triangular, se encuentra situado en pleno Santiago. Con un estilo renacentista francés con finas terminaciones interiores y exteriores, fue construido entre 1913 y 1917 por el arquitecto Emile Jecquier, en terrenos pertenecientes a las monjas Agustinas. Tras el terremoto que afectó a Chile en 1985, fue restaurado. Es el principal centro de operaciones bursátiles de Chile, siendo su espacio dominante la clásica Sala de Rueda. También podemos encontrar el Salón de Accionistas, el Salón de Recibo y las Oficinas de los Corredores que tienen acceso directo a la calle.",
+  "acceso":"si",
+  "baños":"no",
+  "audioguia":"no",
+  "visitas guiadas":"no"
+  },
+  "lugar5":{
+  "nombre":"Edificio Ex Hotel Mundial",
+  "direccion":" Moneda 1069",
+  "coordenadas":"-33.4449058, -70.654855",
+  "img":"https://circuitosinclusivos.gobiernosantiago.cl/wp-content/uploads/2017/06/Hito-5-Ex-hotel-Mundial.jpg",
+  "description":"Al igual que el edificio de la Bolsa de Comercio se encuentra edificado en terrenos pertenecientes a las Monjas Agustinas, inserto en el barrio financiero de Santiago. La compañía de Seguros mundial, compro el terreno para construir ahí su edificio corporativo siendo inaugurado en 1923, destacándose por su arquitectura clásica francesa, su planta triangular con su cúpula que lo corona, el balcón de balaustros en su fachada y enormes columnas. Luego de doce años el edificio fue arrendado y se convirtió en el lujoso Hotel Mundial hasta 1975. Posterior a esto sus dueños deciden cambiar de rubro, y hasta la actualidad ha sido utilizada como sede bancaria. Hoy en día alberga oficinas del Banco BBVA.",
+  "acceso":"no",
+  "baños":"no",
+  "audioguia":"no",
+  "visitas guiadas":"no"
+  },
+  "lugar6":{
+  "nombre":"Plaza de la Constitución",
+  "direccion":"Moneda 1240",
+  "coordenadas":"-33.4417302, -70.6542274",
+  "img":"https://circuitosinclusivos.gobiernosantiago.cl/wp-content/uploads/2017/06/Hito-6-Plaza-de-la-Constituci%C3%B3n-1024x683.jpg",
+  "description":"Ubicada en el acceso norte del Palacio de La Moneda, en sus orígenes la actual Plaza de la Constitución era parte del trazado de la ciudad, albergando esta manzana y sus alrededores las residencias de Manuel Blanco Encalada, primer presidente de Chile, y los héroes de la Independencia José Miguel Carrera y Manuel Rodríguez. En 1930 se comienza con una larga transformación en los alrededores del palacio, el proyecto contemplaba dar un mayor realce a la sede de gobierno destacando la importancia del Poder Ejecutivo luego de un prolongado periodo de régimen parlamentario. La plaza fue planificada como parte del “Barrio Cívico” diseñado por el urbanista austriaco Karl Brunner, que concentraría los ministerios y principales edificios públicos. La plaza nacida de esta remodelación se convirtió en escenario de diferentes manifestaciones sociales, concentraciones políticas y ceremonias oficiales. En la década de 1980 adquiriría su diseño actual con la construcción del triángulo que enfrenta al palacio.",
+  "acceso":"si",
+  "baños":"no",
+  "audioguia":"no",
+  "visitas guiadas":"no"
+  },
+  "lugar7":{
+  "nombre":"Intendencia Metropolitana",
+  "direccion":"Morandé 93",
+  "coordenadas":"-33.4424153, -70.653214",
+  "img":"https://circuitosinclusivos.gobiernosantiago.cl/wp-content/uploads/2017/06/Hito-7-intendencia.jpg",
+  "description":"Este edificio que deslumbra por su riqueza arquitectónica, fue en su comienzo una casa de estilo colonial del Capitán de fragata de la Real Armada francesa Don Juan Francisco Briand de Morandis, fundada en 1902. Dos años más tarde el terreno fue comprado por un grupo de dirigentes del partido conservador Joaquín Echeñique Gandarillas y Alberto González Errázuriz, encargando los planos del nuevo edificio al arquitecto Manuel Cifuentes Gómez, que realizó un inmueble de estilo neoclásico francesa. Los dirigentes instalaron ahí el “Diario Ilustrado”, llamado así por el uso de la fotografía considerado el mayor avance tecnológico de la época. Caracterizándose por denunciar la corrupción administrativa citando nombres y apellidos. Ya en 1928, bajo el gobierno del Presidente Carlos Ibañéz compra el edificio para convertirlo en sede de la Intendencia de Santiago. La idea era construir un barrio cívico en torno al Palacio de la Moneda.",
+  "acceso":"si",
+  "baños":"si",
+  "audioguia":"no",
+  "visitas guiadas":"no"
+  },
+  "lugar8":{
+  "nombre":"Palacio de la Moneda",
+  "direccion":"Manzana comprendida por las calles Morandé, Moneda, Teatinos y Avda. Libertador Bernardo O’Higgins.",
+  "coordenadas":"-33.4428439, -70.6542201",
+  "img":"https://circuitosinclusivos.gobiernosantiago.cl/wp-content/uploads/2017/06/Hito-8-Palacio-de-la-moneda-1024x376.jpg",
+  "description":"Es considerada la principal obra del neoclasicismo en Chile, diseñada por el arquitecto Joaquín Toesca, inaugurado en 1805. Hacia 1730 la economía de Chile sufría una gran depresión, es así como el adinerado comerciante español don Francisco García Huidobro se constituyó como Tesorero Perpetuo, y adquirió la casa de la esquina sur poniente de Huérfanos con Morandé, conocida como Palacio Viejo. El 10 de septiembre de 1749 en ese lugar es acuñada en oro la primera moneda con la imagen del Rey Fernando VI. Con el tiempo la casa de moneda se trasladó a terrenos de los Teatinos, lugar escogido por Toesca para dar comienzo con las obras en 1784. De un estilo neoclásico y con influencias del dórico romano, el edificio es un volumen horizontal. Orienta su fachada principal hacia la calle Moneda. Ya en 1846 bajo el gobierno del Presidente Manuel Bulnes, el edificio se convirtió en residencia presidencial y sede de gobierno, aunque hasta 1922 se realizaron en él las labores de acuñación de moneda.",
+  "acceso":"si",
+  "baños":"si",
+  "audioguia":"no",
+  "visitas guiadas":"no"
+  },
+  "lugar9":{
+  "nombre":"Banco Central de Chile",
+  "direccion":"Agustinas 1180",
+  "coordenadas":"-33.4411116, -70.6530943",
+  "img":"https://circuitosinclusivos.gobiernosantiago.cl/wp-content/uploads/2017/06/Hito-9-Banco-Central-de-Chile-1024x683.jpg",
+  "description":"Este enorme edificio abarca una manzana entre Ahumada, Huérfanos, Estado y Calle Agustinas, terreno que pertenecía al Arzobispo de Santiago y Joaquín Larraín Gandarillas, que en 1909 le vendieron el terreno al Banco. Se encargó la construcción al arquitecto Alberto Siegel Lubbe en 1921, quien diseñó un imponente edifico de estilo neoclásico, donde destaca una cúpula central, escaleras de mármol y amplios espacios pensados para la atención de público. La inauguración oficial fue en 1926, reemplazando al edifico ubicado en huérfanos que hasta ese entonces había sido la sede central del banco. La nueva construcción fue catalogada en esa época por el Diario Ilustrado como “un palacio que era un orgullo arquitectónico para la ciudad“. En su interior cuenta con el Museo Numismático ubicado en el hall del primer piso, que conserva con una colección de monedas y billetes representativos de distintas épocas. El 10 de marzo de 2016, fue declarado monumento histórico ya que representa un periodo de crecimiento y consolidación de la función pública del centro de Santiago. ",
+  "acceso":"si",
+  "baños":"no",
+  "audioguia":"no",
+  "visitas guiadas":"no"
+  },
+  "lugar10":{
+  "nombre":"Palacio de los Tribunales de Justicia",
+  "direccion":"Compañía 1140",
+  "coordenadas":"-33.4386405, -70.6531552",
+  "img":"https://circuitosinclusivos.gobiernosantiago.cl/wp-content/uploads/2017/06/Hito-10-Palacio-de-Tribunales-1024x761.jpg",
+  "description":"La gran construcción de estilo neoclásico con marcada influencia francesa, fue construida entre 1905 y 1930 en dos etapas. La edificación fue impulsada por el gobierno del ex Presidente Francisco Errázuriz Zañartu. Una de las principales características del edificio es la incorporación de un zócalo que permitió nivelar el inmueble a todo lo ancho, corrigiendo la inclinación propia del centro de la capital. En su interior cuenta con un magnifico hall de tres pisos de altura que cruza toda la longitud del edificio. Lo cubre una llamativa bóveda de estructura metálica y vidrio, donde también destaca un gran vitral de tres paños que es una alegoría sobre la “Justicia Chilena”, traído desde Alemania.",
+  "acceso":"si",
+  "baños":"si",
+  "audioguia":"no",
+  "visitas guiadas":"no"
+  },
+  "lugar11":{
+  "nombre":"Museo Chileno de Arte Precolombino",
+  "direccion":"Bandera 361",
+  "coordenadas":"-33.4390878, -70.6524804",
+  "img":"https://circuitosinclusivos.gobiernosantiago.cl/wp-content/uploads/2017/06/Hito-11-Museo-Chileno--1024x531.jpg",
+  "description":"El museo funciona en una de las más importantes edificaciones de la colonia, de puro estilo neoclásico fue construida por el arquitecto italiano Joaquín Toesca. En este sitio fue donde, en 1555, edificó su casa el primer corregidor de Santiago Don Juan de Cuevas. Luego durante años, fue ocupado por colegios y por la Biblioteca Nacional. Ya en 1805 Toesca toma la casa y realiza un magnifico inmueble para albergar al Palacio de la Real Aduana. A partir de 1845 se transforma en sede de los tribunales de Justicia hasta 1968, donde un gran incendio destruye totalmente las instalaciones y archivos que se encontraban en su interior. Luego de largas restauraciones, en 1981 es destinado al uso completo del Museo. El origen del Museo se basa en la colección personal de su fundador, Sergio Larraín García-Moreno, arquitecto chileno que durante 50 años se dedicó a recolectar variados objetos precolombinos. Por su parte la municipalidad de Santiago se encargó de la restauración y acondicionamiento para albergar la exposición.",
+  "acceso":"si",
+  "baños":"si",
+  "audioguia":"no",
+  "visitas guiadas":"no"
+  },
+  "lugar12":{
+  "nombre":"Ex Congreso Nacional",
+  "direccion":"Compañía 1131",
+  "coordenadas":"-33.4382978, -70.6534947",
+  "img":"https://circuitosinclusivos.gobiernosantiago.cl/wp-content/uploads/2017/08/Hito%2012.%20Ex%20Congreso%20Nacional%201.jpg",
+  "description":"Es una de los edificios más representativos de la vida democrática del país, edificado en terrenos pertenecientes a los Jesuitas por el arquitecto francés Claude Françoise Brunet. Cuenta con una planta cuadrada donde se destaca la fachada que posee seis columnas de estilo corintio, dos alas destinadas a albergar a la Cámara de Diputados y al Senado que se encuentran divididas por un gran salón de honor. Los hermosos y amplios jardines corresponden al lugar que ocupaba la Iglesia de la Compañía, que el 8 de diciembre de 1863 sufrió un gran incendio que daño seriamente la edificación y fue Guillermo Renner el encargado de diseñar los parques después de trágico evento. Allí podemos encontrar en recuerdo de las víctimas del incendio en una estatua de mármol que representa a una Virgen. Luego de las restauraciones fue inaugurado en 1901, siendo una de las primeras obras hecha de hormigón armado en Chile. Fue sede del Congreso Nacional hasta el 11 de septiembre de 1973 donde paso a ser el Ministerio de justicia hasta el fin de la dictadura. Finalmente fue utilizado por la Cancillería hasta el año 2006 donde se comenzó a tramitar el retorno de las dependencias a las autoridades del congreso.",
+  "acceso":"si",
+  "baños":"si",
+  "audioguia":"no",
+  "visitas guiadas":"no"
+  },
+  "lugar13":{
+  "nombre":"Plaza de Armas",
+  "direccion":"Se encuentra entre las calles Merced, Ahumada, Monjitas y Estado.",
+  "coordenadas":"-33.4372243, -70.6499673",
+  "img":"https://circuitosinclusivos.gobiernosantiago.cl/wp-content/uploads/2017/05/plaza-de-armas-santiago-de-chile.jpg",
+  "description":"Durante el período de la colonia y hasta mediados del siglo XIX la Plaza de Armas era solo una explanada que contaba con una fuente que proveía de agua al centro de la ciudad, se llamaba en sus comienzos Plaza Mayor, pero tras el primer ataque de los indígenas fue renombrada a Plaza de Armas debido al campamento militar que adopto la ciudad. En torno a ella se instaló el Cabildo que hoy es la municipalidad de Santiago, la casa de los Gobernante donde funciona el correo central, la Real Audiencia donde hoy podemos encontrar el Museo Histórico Nacional y por supuesto la Iglesia Mayor llamada hoy Catedral Metropolitana. Con el tiempo la plaza de transformo en el centro de actividades sociales, económicas y políticas, incluso funcionó el Mercado de Abastos desde 1600 hasta 1817.",
+  "acceso":"si",
+  "baños":"no",
+  "audioguia":"no",
+  "visitas guiadas":"no"
+  },
+  "lugar14":{
+  "nombre":"Catedral Metropolitana",
+  "direccion":"Plaza de Armas 444",
+  "coordenadas":"-33.4372243, -70.6499673",
+  "img":"https://circuitosinclusivos.gobiernosantiago.cl/wp-content/uploads/2017/06/Hito-14-Catedral--1024x687.jpg",
+  "description":"La Catedral Metropolitana forma parte de un conjunto arquitectónico junto al Palacio Arzobispal y la Parroquia del Sagrario. El conquistador Pedro de Valdivia fue el encargado de destinar el terreno del costado poniente de la Plaza de Armas para levantar la Iglesia Mayor, nombre que fue cambiado a Catedral Metropolitana cuando el Papa Pío IV nombró la ciudad como un extenso obispado. La magnífica edificación se llevo a cabo durante tres siglos, pero debió ser reconstruida en cinco ocasiones producto de incendios y terremotos. El actual inmueble corresponde a la reconstrucción de 1748.",
+  "acceso":"si",
+  "baños":"no",
+  "audioguia":"si",
+  "visitas guiadas":"no"
+  },
+  "lugar15":{
+  "nombre":"Parroquia del Sagrario",
+  "direccion":"Plaza de Armas 444",
+  "coordenadas":"-33.4372243, -70.6499673",
+  "img":"https://circuitosinclusivos.gobiernosantiago.cl/wp-content/uploads/2017/06/HITO-15-PARROQUIA-DEL-SAGRARIO-1024x576.png",
+  "description":"Esta hermosa parroquia que se encuentra al lado de la Catedral y está dedicada a la Patrona de Chile, la Virgen del Carmen. Fue inaugurada en 1863 por el Monseñor Valentín Valdivieso. Luego perfeccionaría el inmueble el arquitecto Ignacio Cremonesi quien concluyó su trabajo en 1905 tal como luce en la actualidad. La Parroquia logra mantener un estilo que equilibra lo austero y lo majestuoso, cuenta con una nave única orientada de norte a sur y su cielo está formado por una bóveda de cañón decorada con escenas religiosas. Originalmente se accedía por la puerta principal que da a Plaza de Armas, pero actualmente existe una entrada desde el interior de la Catedral.",
+  "acceso":"si",
+  "baños":"no",
+  "audioguia":"no",
+  "visitas guiadas":"no"
+  },
+  "lugar16":{
+  "nombre":"Correo Central de Santiago",
+  "direccion":"Catedral 989",
+  "coordenadas":"-33.4370398, -70.6511603",
+  "img":"https://circuitosinclusivos.gobiernosantiago.cl/wp-content/uploads/2017/06/Hito-16-Correo-central-de-Santiago-1024x735.jpg",
+  "description":"Este edificio de estilo renacentista construido por el corregidor de Santiago, Don Rodrigo Antonio Matías Quint de Valdovinos, fue inaugurado en 1715. Cuenta con una planta rectangular y techado por una cubierta vidriada, funcionó como Palacio de los Presidentes de Chile durante el Gobierno de Manuel Bulnes desde 1820 hasta 1846. Tras un incendio que lo afecto en 1881, se inicio la construcción del actual inmueble a cargo del arquitecto Ricardo Brown, que fue destinado al correo. El edificio funciona como las oficinas centrales y secciones de atención al público de Correos de Chile. Una de las últimas restauraciones se llevó a cabo en 1993 en que se renovaron la pintura de las fachadas y patios interiores, la iluminación interior y se cambiaron los cielos por acrílicos.",
+  "acceso":"si",
+  "baños":"si",
+  "audioguia":"no",
+  "visitas guiadas":"no"
+  },
+  "lugar17":{
+  "nombre":"Museo Histórico Nacional",
+  "direccion":"Plaza de Armas 951",
+  "coordenadas":"-33.4372714, -70.650708",
+  "img":"https://circuitosinclusivos.gobiernosantiago.cl/wp-content/uploads/2017/06/Hito-17-Museo-Histo%CC%81rico-1024x809.jpg",
+  "description":"El Museo Histórico Nacional fue fundado en 1982. Su edificio de estilo Neoclásico, fue una obra realizada por el arquitecto Chileno Juan José Goycolea y Zañartu, construido entre 1804 y 1808, para convertirse en la sede del Tribunal de Justicia. En sus dependencias sesionó el Primer Congreso Nacional el 4 de julio de 1811. Luego del triunfo de los patriotas en la Batalla de Chacabuco en 1817, el edificio paso a ser la Casa de Gobierno, hasta que en 1845, donde el Presidente Manuel Bulnes trasladó la sede a la Real Casa de Moneda. Fue sede de la Intendencia de Santiago desde 1847 a 1929 y la oficina de Correos y Telégrafos hasta 1978. Hoy en día es la sede del Museo Histórico Nacional, para lo cual debió ser restaurado y acondicionado para albergar las colecciones histórico-patrimoniales, exhibiendo la historia de Chile desde la época precolombina hasta 1973. ",
+  "acceso":"si",
+  "baños":"si",
+  "audioguia":"no",
+  "visitas guiadas":"no"
+  },
+  "lugar18":{
+  "nombre":"Palacio Consistorial, Municipalidad de Santiago",
+  "direccion":"Costado norte de la Plaza Armas, esquina 21 de Mayo",
+  "coordenadas":"-33.4372714, -70.650708",
+  "img":"https://circuitosinclusivos.gobiernosantiago.cl/wp-content/uploads/2017/06/Hito-18-Palacio-Consistorial-1024x624.jpg",
+  "description":"La hermosa fachada neoclásica, arcos de medio punto y balcón corrido, fue utilizada desde la fundación de Santiago como cabildo y cárcel pública, ésta última es trasladada en 1878 debido al mal estado del inmueble. Entre 1881 y 1883 se ralizan remodelaciones del edificio para ser sede de las dependencias municipales, llamado así desde la constitución de 1823 donde se genera el cambio de nombre de los cabildos por municipalidades. El actual edificio fue construido entre 1785 y 1790, a cargo de Melchor Jaraquemada. En el frontis del edificio destaca el escudo de armas de la ciudad, regalado por el Rey Carlos V en 1552, como signo de consolidación. En su interior cuenta con dos niveles, en el primer piso un hall central y en el segundo el salón de Honor y las oficinas de las autoridades municipales",
+  "acceso":"si",
+  "baños":"si",
+  "audioguia":"no",
+  "visitas guiadas":"no"
+  },
+  "lugar19":{
+  "nombre":"Parroquia San Francisco de El Monte",
+  "direccion":"Plaza Independencia 31",
+  "coordenadas":"-33.6783192, -70.9782465",
+  "img":"https://circuitosinclusivos.gobiernosantiago.cl/wp-content/uploads/2017/05/Hito-1-Parroquia-San-Francisco-de-el-Monte-1024x683.jpg",
+  "description":"Iniciamos el recorrido por el antiguo convento de San Francisco, fundado en 1732 ( siglo XVIII) y declarado monumento nacional en 1974 (siglo XX). La parroquia del convento cuenta con una imponente arquitectura colonial, de gruesos muros de adobe, con una sola nave angosta y profunda. El Altar mayor fue encargado y traído a Chile por pedido de don Pedro de Valdivia. A continuación, visitamos el “Patio de los Naranjos”, lugar que antaño era utilizado por los monjes para la meditación y la lectura. Al costado de la parroquia encontramos la “Capilla de los Hombres”, la que, durante años, fue utilizado como el cementerio del convento. En el año 2014 y tras una larga investigación se recuperó la calavera del Prócer de la Patria José Miguel Carrera, la que descansa en esta parroquia desde entonces. ",
+  "acceso":"no",
+  "baños":"no",
+  "audioguia":"no",
+  "visitas guiadas":"no"
+  },
+  "lugar20":{
+  "nombre":"Museo Patrimonial Contemporáneo. El Monte.",
+  "direccion":"Plaza Independencia Nº31, El Monte.",
+  "coordenadas":"-33.6783192, -70.9782465",
+  "img":"https://circuitosinclusivos.gobiernosantiago.cl/wp-content/uploads/2017/05/Hito-2-Museo-Patrimonial-Contemporaneo-1-1024x683.jpg",
+  "description":"Este Museo fue inaugurado el 29 de mayo del año 2005 por el profesor don Juan Araya Espinoza, su director y fundador, quien, durante 50 años ha recuperado todo tipo de objetos, fotografías e información histórica del pueblo a través de los habitantes del lugar. El museo está compuesto por tres salas de exposiciones y ha sido visitado por 300.000 personas de todas partes del país y del extranjero. ",
+  "acceso":"no",
+  "baños":"no",
+  "audioguia":"no",
+  "visitas guiadas":"no"
+  },
+  "lugar21":{
+  "nombre":"Museo del Libro",
+  "direccion":"Costado Norte de Plaza Independencia",
+  "coordenadas":"-33.6783192, -70.9782465",
+  "img":"https://circuitosinclusivos.gobiernosantiago.cl/wp-content/uploads/2017/05/Hito-3-Museo-del-Libro-1024x683.jpg",
+  "description":"Este museo y la plazoleta fueron creados 23 de abril de 2013, en el marco de la celebración el Día Mundial del Libro y en homenaje al escritor montino José Santos González Vera, nacido en San Francisco de El Monte (1897 – 1970) quien, además fue reconocido por su obra con el Premio Nacional de Literatura en el año 1950. Gracias al esfuerzo del Profesor Juan Araya se recopiló la información del escritor y de sus libros. Sabías que? La intención del museo es dar a conocer la obra literaria del escritor González Vera y así evitar que caiga en el olvido. Se muestran ejemplares de los libros del autor que datan de 1950.",
+  "acceso":"no",
+  "baños":"no",
+  "audioguia":"no",
+  "visitas guiadas":"no"
+  },
+  "lugar22":{
+  "nombre":"Quinta de recreo El Marino",
+  "direccion":"Avenida San Francisco #092, San Francisco de El Monte.",
+  "coordenadas":"-33.68035310461593, -70.97743774049299",
+  "img":"https://circuitosinclusivos.gobiernosantiago.cl/wp-content/uploads/2017/05/Hito-4-Quinta-de-Recreo-el-Marino-1024x812.jpg",
+  "description":"Esta quinta de recreo y restaurante le debe su nombre a Don Lázaro Segundo Bernal Donoso conocido como “El Marino” legado de Valparaíso, su origen fue en 1942 y hasta 1952 era conocido bajo el nombre de “Danubio”. Desde su nacimiento ha sido un lugar de encuentro de artistas, periodistas e incluso presidentes. Actualmente, es atendido por los hijos del dueño Don Lázaro Segundo Bernal Donoso, Sergio Bernal y Julio Bernal. Es un lugar de comida con identidad chilena y actividades folklóricas.",
+  "acceso":"si",
+  "baños":"no",
+  "audioguia":"no",
+  "visitas guiadas":"no"
+  },
+  "lugar23":{
+  "nombre":"Viña Doña Javiera",
+  "direccion":"Fundo San Miguel s/n, El Monte",
+  "coordenadas":"-33.674695740430664, -70.97035949535298",
+  "img":"https://circuitosinclusivos.gobiernosantiago.cl/wp-content/uploads/2017/05/Hito-5-vin%CC%83a-Don%CC%83a-Javiera-1024x683.jpg",
+  "description":"Esta viña se encuentra ubicada en el antiguo fundo San Miguel de El Monte que perteneció a la familia Carrera, cuna del prócer de la patria José Miguel y toda su parentela. Cuenta con 665 hectáreas de extensión y fue declarada Monumento Histórico en 1974. En la actualidad, se encuentra en manos de la familia Yávar Correa , con sus bodegas, viñas y parque muy bien conservados y acondicionados para recibir turistas. La casa cuenta con árboles autóctonos de más de 250 años. Después de la Batalla de Rancagua , José Miguel Carrera se ocultó con parte de sus tropas, en el lugar, escapando de O’Higgins; se cree que lo hizo utilizando un túnel de más de un kilómetro de largo que existe en la propiedad , hasta la Iglesia parroquial. Se cree que aquí fue donde doña Javiera Carrera, bordó la primera bandera de Chile, la de la Patria Vieja.",
+  "acceso":"si",
+  "baños":"no",
+  "audioguia":"no",
+  "visitas guiadas":"no"
+  },
+  "lugar24":{
+  "nombre":"Casa de la cultura Talagante",
+  "direccion":"Av. Bernardo O´Higgins N°3201. Costado Balneario Tegualda.",
+  "coordenadas":"-33.6739202, -70.9516863",
+  "img":"https://circuitosinclusivos.gobiernosantiago.cl/wp-content/uploads/2017/05/Hito-6-Casa-de-la-Cultura.jpg",
+  "description":"Esta Casa surge como un espacio de difusión de las artes y la mantención de la cultura de la zona, promoviendo las diversas expresiones artísticas que apoyan la identidad local. Es una corporación sin fines de lucro donde si imparten más de 30 talleres, algunos con pagadas y otras gratuitos. Esta moderna edificación terminada en el año 2012 baso su arquitectura en el edificio del GAM de Santiago. Sabías que? Tienen un museo de Loza Policromada, arte característico del lugar , con más de doscientos años de antigüedad y que se ha traspasado de generación en generación.",
+  "acceso":"si",
+  "baños":"si",
+  "audioguia":"no",
+  "visitas guiadas":"no"
+  },
+  "lugar25":{
+  "nombre":"Centro Cultural Teatro Plaza",
+  "direccion":"Al ingresar a Talagante, a un costado de Plaza de Armas de la comuna",
+  "coordenadas":"-33.66431735953527, -70.93136931335444",
+  "img":"https://circuitosinclusivos.gobiernosantiago.cl/wp-content/uploads/2017/05/Hito-7-Centro-Cultural-Teatro-Plaza-1024x683.jpg",
+  "description":"El ex Cine Plaza (1948), es desde julio de 2011 un Centro Cultural, en donde convergen, en un diálogo permanente, los artistas y la comunidad; rock, poesía, danza, artes visuales, teatro, audiovisual y artesanía, encuentran un espacio de difusión e interacción con nuevas audiencias y la posibilidad de mostrar su trabajo. Tiene un espacio con capacidad para 290 personas donde se pueden realizar o exponer muestras artísticas culturales. Su administración depende de la Corporación Cultural de Talagante. Sabías que? Se cuenta una historia en relación a su creación que habla de la extraña desaparición de unos ancianos que cuidaban el lugar y la que ha pasado a ser parte de un mito urbano.",
+  "acceso":"si",
+  "baños":"si",
+  "audioguia":"no",
+  "visitas guiadas":"no"
+  },
+  "lugar26":{
+  "nombre":"Parroquia Inmaculada Concepción",
+  "direccion":"Av. Bernardo O´Higgins N°1295. Costado Municipalidad de Talagante.",
+  "coordenadas":"-33.66500102295024, -70.93096979906225",
+  "img":"https://circuitosinclusivos.gobiernosantiago.cl/wp-content/uploads/2017/05/Hito-8-Parroquia-inmaculada-concepcion-1024x713.jpg",
+  "description":"Principal templo católico de la Comuna, fue erigido el 13 de octubre del 1824 por el Arzobispo Ignacio Cienfuegos; su primera sede estaba en el Convento de San Francisco de El Monte, su segunda sede, es la actual en la Plaza de Talagante, desde el 09 de junio de 1893 por decreto de Monseñor Rafael Valentín Valdivieso. Cuenta con la imagen de una Virgen de 2,80 metros de altura, la que fue fabricada en un sólo bulto de madera. Ha sido restaurada en el año 2017. Sabías qué? El lugar cuenta con unas reliquias muy apreciadas, que son unas pequeñas astillas de los huesos del dedo índice de Santa Teresa de Ávila y de San Juan de la Cruz Estos fragmentos santos se encuentran sellados por el Vaticano y puestos en el centro del altar.",
+  "acceso":"si",
+  "baños":"si",
+  "audioguia":"no",
+  "visitas guiadas":"no"
+  },
+  "lugar27":{
+  "nombre":"Santuario Nuestra Señora de la Merced",
+  "direccion":"Santelices, 432 Isla de Maipo Santiago.",
+  "coordenadas":"-33.75498871687793, -70.90045518195848",
+  "img":"https://circuitosinclusivos.gobiernosantiago.cl/wp-content/uploads/2017/05/Hito-9-Santuario-Nuestra-Sen%CC%83ora-de-La-Merced-1024x683.jpg",
+  "description":"Es el principal templo católico de Isla de Maipo y una de las edificaciones más características del pueblo, su construcción data de 1883, posee una torre donde está el campanario central, con un estilo neoclásico. Tal como muchas otras edificaciones de la zona central, este templo soportó el fuerte sismo de agosto de 1906, pero los daños que recibió obligaron a reedificarlo a partir de 1926. Sabías Que? En 1829 una inundación causada por el desborde del río Maipo arrasó la zona y los sobrevivientes se refugiaron en el santuario donde le hicieron una promesa a la Virgen si ella los ayudaba. La llevaron río arriba, después de un día y una noche el río cambio su cauce definitivamente salvándose al pueblo. El último domingo de septiembre se conmemora este milagro y el pueblo se viste de fiesta. ",
+  "acceso":"si",
+  "baños":"si",
+  "audioguia":"no",
+  "visitas guiadas":"no"
+  },
+  "lugar29":{
+  "nombre":"Casona Quezada",
+  "direccion":"Santelices 13, Isla de Maipo, Región Metropolitana",
+  "coordenadas":"-33.7461513598069, -70.92561622217559",
+  "img":"https://circuitosinclusivos.gobiernosantiago.cl/wp-content/uploads/2017/05/Hito-10-Casona-Quezada-1-1024x707.jpg",
+  "description":"Hoy conocida como Casona Quezada López es una ruta Turística, ubicada en Isla de Maipo, Región Metropolitana. “La Casona Quezada, pertenece hoy a Don Claudio Quezada, bisnieto del primer Alcalde de la comuna de Isla de Maipo, Don David López Vásquez. Data de 1875 y en su interior conserva, el mobiliario de la época heredado por la familia y que invita a sus visitantes a pasear por sus instalaciones, su arquitectura de estilo colonial y jardines que reviven el pasado en tiempos actuales.” Esta casona patrimonial fue construida en adobe hacia 1875. Se conservan en su fachada los faroles propios de la arquitectura colonial del siglo XIX. También, se mantienen muebles de la época como, sillones, sillas y un gran comedor, los que se encuentran con el nombre de quién los adquirió y la generación a la que perteneció. Originalmente la propiedad ocupaba más de dos cuadras y funciono la primera escuela de mujeres y una sede de carabineros. ",
+  "acceso":"no",
+  "baños":"no",
+  "audioguia":"no",
+  "visitas guiadas":"no"
+  },
+  "lugar30":{
+  "nombre":"Casona de Los Mesa",
+  "direccion":"Lillo 371, Isla de Maipo",
+  "coordenadas":"-33.75365649205866, -70.89356659438052",
+  "img":"https://circuitosinclusivos.gobiernosantiago.cl/wp-content/uploads/2017/05/Hito-11-Casona-De-Lo-Mesa-1024x683.jpg",
+  "description":"La Casona de los Mesa se encuentra ubicada en la Isla de Maipo, es patrimonio histórico de la comuna y ha permanecido en esta familia durante cinco generaciones. Actualmente la casa está algo deteriorada por el terremoto del 2010, pero aún contiene los muebles de la época los que se utilizan para ambientar los eventos que allí se realizan. Se venden licores artesanales y en la actualidad se usa como centro de eventos ambientado en una típica casona rústica de campo con líneas arquitectónicas coloniales. Durante los fines de semana funciona como bar con una carta de tragos y tablas. ¿Sabías que? Se dice que los coches de la Casona de los Mesa, eran los amos y señores de las calles antes de la llegada de los camiones.",
+  "acceso":"si",
+  "baños":"no",
+  "audioguia":"no",
+  "visitas guiadas":"no"
+  },
+  "lugar31":{
+  "nombre":"Puente de los Carros",
+  "direccion":" Entre Av Recoleta y Av La Paz",
+  "coordenadas":"-33.43253667236277, -70.65034330833427",
+  "img":"https://circuitosinclusivos.gobiernosantiago.cl/wp-content/uploads/2017/06/HITO-1-PUENTE-LOS-CARROS-1024x575.png",
+  "description":"Comenzamos el recorrido en este puente peatonal que nos comunica sobre el Río Mapocho con La Chimba. Originalmente construido de madera con tensores de hierro servía para transportar los vagones de tranvías para su reparación y mantenimiento en un gran galpón. A principios del Siglo XXI se comenzó a utilizar como lugar de encuentro de artistas y músicos. En lo que antes fueran los galpones de reparación de tranvías se transformaron en el mercado Vega Chica y el puente se convirtió en su acceso principal. Sabías que? De los 41 puentes que cruzan el Rio Mapocho en la Ciudad de Santiago, el Puente de Los Carros es uno de los cuatro de estructura metálica y es considerado como un ícono emblemático.",
+  "acceso":"si",
+  "baños":"no",
+  "audioguia":"no",
+  "visitas guiadas":"no"
+  },
+  "lugar32":{
+  "nombre":"Mercado Central",
+  "direccion":" San Pablo 967",
+  "coordenadas":"-33.433619833913355, -70.65101493749097",
+  "img":"https://circuitosinclusivos.gobiernosantiago.cl/wp-content/uploads/2017/06/Hito-2.-Mercado-Central--1024x683.jpg",
+  "description":"Este mercado funcionaba en La Plaza de Armas, pero por temas sanitarios fue trasladado a lo que se llamó la “explanada de los abastos” la cual se incendia en 1864 dando paso a la construcción de lo que hoy conocemos como “Mercado central”, el cual es obra de Fermín Vivaceta y es de estilo neoclásico, fue inaugurado en 1872. Consta de 2 anillos hechos en albañilería, uno exterior donde se pueden encontrar gran diversidad de locales comerciales y el anillo interior que se caracteriza por albergar cocinerías y puestos de pescados y mariscos. Esta estructura descata por su belleza y funcionalidad ya que esta diseñada para generar ventilación cruzada, ya que a finales de 1800 no existía aire acondicionado por tanto era necesario crear este tipo de sistemas, al igual que la “linterna” que corona la cubierta, la cual permite que ingrese luz natural. En 2012 la revista National Geographic lo posiciona como el quinto mejor mercado del mundo, por lo cual se transforma en visita obligada para quienes quieren conocer y disfrutar de una inolvidable experiencia culinaria de mar, y si buscas bien, a precios razonables.",
+  "acceso":"si",
+  "baños":"si",
+  "audioguia":"no",
+  "visitas guiadas":"no"
+  },
+  "lugar33":{
+  "nombre":"La Piojera",
+  "direccion":"Aillavilú 1030",
+  "coordenadas":"-33.433545807755394, -70.65215017256392",
+  "img":"https://circuitosinclusivos.gobiernosantiago.cl/wp-content/uploads/2017/06/Hito-3.-La-Piojera-1024x820.jpg",
+  "description":"Icónico bar y restaurante ubicado en la calle Ayllavilu, (antiguo barrio chino) considerado por muchos como “El palacio popular” ya que en él aún se pueden encontrar ejemplos de la gastronomía, iconografía y cultura popular chilena. Su origen se remonta a finales de 1800 cuando era conocido como “Restaurante Santiago Antiguo”, su minuto de fama comienza con la visita del entonces presidente de la república Arturo Alessandri Palma quién a viva voz exclamó: “Como me traen a esta piojera”, desde entonces el lugar toma ese nombre y se convierte en el “bar La piojera” donde el bajo pueblo puede encontrarse con tradiciones populares arraigadas al sentimiento republicano y a la chilenidad, también conocido como “cultura Huachaca” que cada año realiza su cumbre donde se elige un rey y reina, los cuales se comprometen a mantener estas tradiciones. Uno de los tragos más consumidos en este bar es el famoso “terremoto” una bebida alcohólica hecha a base de pipeño, el cual es un vino blanco sin filtrar acompañado de helado de piña, fernet y granadina. Sabías que? Si te animas a beber un terremoto te arriesgas a sentir las réplicas!!!",
+  "acceso":"si",
+  "baños":"si",
+  "audioguia":"no",
+  "visitas guiadas":"no"
+  },
+  "lugar34":{
+  "nombre":"Estación Mapocho",
+  "direccion":"Avenida Balmaceda en Plaza de la Cultura S/N",
+  "coordenadas":"-33.43210847848599, -70.65451540314942",
+  "img":"https://circuitosinclusivos.gobiernosantiago.cl/wp-content/uploads/2017/06/Hito-4.-Estacion-Mapocho-1024x687.jpg",
+  "description":"Es hoy un espacio patrimonial destinado a la difusión cultural del país y el primero construido en democracia. Originalmente fue construida en honor al primer centenario de la República e inaugurada 1912, su diseño pertenece al arquitecto chileno-francés Emilio Jequer y se caracteriza por la mezcla de albañilería con una imponente bóveda de fierro forjado en Francia y Bélgica. El gran objetivo de esta construcción fue conectar vía tren la capital con las principales ciudades del país, tales como Valparaíso o Iquique en el norte, incluso también conectarse vía Los andes con el ahora extinto “tren andino” para luego seguir a Mendoza y Buenos Aires en Argentina. En la década de los 80 comienza la decadencia del sistema ferroviario en Chile y fue así como en 1987 se puso fin definitivamente a la historia de la Estación Mapocho, pero con ello en 1991 nace el primer centro cultural de Santiago post dictadura. Sabías que? El techo de la estación era de madera y fue reemplazado por planchas cobre para darle mayor identidad nacional, tuvo que ser tratado especialmente para soportar la corrosión y el smog.",
+  "acceso":"si",
+  "baños":"si",
+  "audioguia":"no",
+  "visitas guiadas":"no"
+  },
+  "lugar35":{
+  "nombre":"Antiguo Instituto de Higiene",
+  "direccion":"Av. Independencia #56",
+  "coordenadas":"-33.431419431834186, -70.65313271663635",
+  "img":"https://circuitosinclusivos.gobiernosantiago.cl/wp-content/uploads/2017/08/Hito%205.%20Antiguo%20Instituto%20de%20Higiene.jpg",
+  "description":"Este organismo nace en 1892, fue conocido también como “Desinfectorio público”, fue creado fundamentalmente a raíz del foco infeccioso generado por soluciones habitacionales tipo ranchos o conventillos que se tomaron principalmente el centro de Santiago y sectores ponientes de la capital, ocupadas por la masas de migrantes acostumbrados a vivir en condiciones de hacinamiento por lo que al final del siglo XIX Chile ostentaba el record mundial de mortalidad infantil, cada año la viruela, el cólera y la tuberculosis acababa con miles de vidas. La construcción albergó los estudios de las condiciones de higiene pública en Santiago, al igual que los equipos técnicos y el personal destinado a la desinfección de estas viviendas. El instituto fue el pionero de la educación de la salud pública en cuanto a la vacunación y prevención de enfermedades, fue cerrado en 1924 y es hoy en día un Monumento Histórico que alberga las oficinas de la Policía Federal de Investigaciones. Sabías que? Este lugar fue utilizado como centro de detención en la época de la dictadura.",
+  "acceso":"no",
+  "baños":"no",
+  "audioguia":"no",
+  "visitas guiadas":"no"
+  },
+  "lugar36":{
+  "nombre":"Iglesia de las Carmelitas",
+  "direccion":"Borgoño 1047",
+  "coordenadas":"-33.430319790209836, -70.65354176363348",
+  "img":"https://circuitosinclusivos.gobiernosantiago.cl/wp-content/uploads/2017/06/Hito-6-Iglesia-de-las-carmelitas-925x1024.jpg",
+  "description":"Conocida como la iglesia de “Los Carmelitos “ aunque el nombre oficial de esta iglesia es “Parroquia del niño Jesús de Praga” destaca por su torre hexagonal y su estilo Neo Gótico, es una de las pocas construcciones de este tipo que podemos encontrar en Santiago, debido a que no suelen ser muy resistente a sismos. Pertenece a la congregación de “Carmelitas descalzas” y se hizo famosa a principios del siglo 20 cuando en el antiguo templo ubicado en el mismo lugar ocurrió un “milagro” protagonizado por la señora Rosa Fernández de Ruiz Tagle (Tía de Santa teresa de Los Andes) quien padecía de un problema en su pierna, lo cual la obligaba a utilizar una bota ortopédica, luego de visitar varios médicos, la mujer acude a la iglesia a pedir el milagro de la sanación, la historia dice que luego de orar al milagroso “Niño Jesús de Praga” ella se sana, a a partir de eso, la iglesia comienza a tener fama y se convierte en lugar de peregrinaje. Fue así como muchas personas influyentes donan grandes cantidades de dinero para la construcción del actual templo que data de 1916. Sabías que? La parroquia es objeto de ciertas leyendas que rondan en el barrio, como supuestas galerías subterráneas que conectarían con el templo de San Rafael por debajo de la avenida Independencia.",
+  "acceso":"si",
+  "baños":"si",
+  "audioguia":"no",
+  "visitas guiadas":"no"
+  },
+  "lugar37":{
+  "nombre":"Pérgolas",
+  "direccion":"Avenida Paz #50",
+  "coordenadas":"-33.43151650632162, -70.65199229228152",
+  "img":"https://circuitosinclusivos.gobiernosantiago.cl/wp-content/uploads/2017/06/pergolas-1024.jpg",
+  "description":"Este mercado de flores surge a principios de 1900 cuando vendedores informales vendían flores a la salida de la iglesia de San Francisco. Esto fue así hasta que el alcalde Urzua les otorgó permiso para instalarse de forma más ordenada con mesones, no fue hasta 1927 en que se edifica una construcción más solida. Esta permanece hasta 1948 cuando un proyecto de ensanche de la alameda los obliga a trasladarse hasta su actual ubicación, a un costado del mercado “Tirso de molina”. La actual construcción data del año 2005 cuando se construye la autopista “costanera norte” que obliga a ordenar el sector y donde se genera una oportunidad de mejorar y modernizar las instalaciones que hasta ese minuto eran precarias. Sabías que? Este sitio fue tan característico que inspiró la famosa obra musical chilena “La Pérgola de las Flores” de 1960.",
+  "acceso":"si",
+  "baños":"si",
+  "audioguia":"no",
+  "visitas guiadas":"no"
+  },
+  "lugar38":{
+  "nombre":"Mercado Tirso de Molina",
+  "direccion":"Sta. María 409, Recoleta",
+  "coordenadas":"-33.43182879882733, -70.65046053576353",
+  "img":"https://circuitosinclusivos.gobiernosantiago.cl/wp-content/uploads/2017/06/HITO-8-MERCADO-TIRSO-DE-MOLINA-2-1024x576.png",
+  "description":"Otra cita obligada para los amantes de la gastronomía con precios accesibles, este tradicional mercado minorista de frutas, verduras y abarrotes lleva este nombre en homenaje al dramaturgo, poeta y narrador español del Barroco del siglo XVII, Tirso de Molina, pseudónimo de fray Gabriel Téllez. El origen del mercado data de mediados de la década del 50 cuando comerciantes informales se instalaban al costado del terminal de tranvías, pasados los años se establecen ya autorizados por el municipio de recoleta en puestos precarios. No fue hasta el año 2005 con la construcción de la autopista costanera norte que moderniza sus instalaciones. En su interior se encuentra la primera cafetería mapuche “Newen Lamngen” (Fuerza de Mujer). Sabías que? Su arquitectura frontal representa árboles en fila, que por el diseño dejan entrar haces de luz que refleja y dibuja en los pisos del mercado diversas formas, dejando la sensación de encontrarse bajo la sombra de los árboles.",
+  "acceso":"si",
+  "baños":"si",
+  "audioguia":"no",
+  "visitas guiadas":"no"
+  },
+  "lugar39":{
+  "nombre":"La Vega Chica",
+  "direccion":"Artesanos 719",
+  "coordenadas":"-33.43113563757046, -70.6499521227963",
+  "img":"https://circuitosinclusivos.gobiernosantiago.cl/wp-content/uploads/2017/06/HITO-9-LA-VEGA-CHICA-1024x679.png",
+  "description":"Este mercado le debe su existencia a la desaparición de los tranvías en Santiago, dado que era el lugar donde se reparaban y se les hacia el mantenimiento. Ubicado Justo al frente del Mercado Tirso de Molina hacia el norte, es hoy un sitio que alberga varios locales que ofrecen comidas típicas chilenas y de otras culturas predominando la comida peruana que supo ocupar un lugar de elite por saber sacar provecho al máximo de la reconocida calidad de los pescados y mariscos que ofrece Chile. Sabías que? En La Vega Chica se jactan de hacer el mejor ceviche que se ofrece en todo Chile.",
+  "acceso":"si",
+  "baños":"si",
+  "audioguia":"no",
+  "visitas guiadas":"no"
+  },
+  "lugar40":{
+  "nombre":"Vega Central",
+  "direccion":"Antonia López de Bello 760",
+  "coordenadas":"-33.42925134537823, -70.64937046275315",
+  "img":"https://circuitosinclusivos.gobiernosantiago.cl/wp-content/uploads/2017/08/Hito%2010.%20Vega%20Central.jpg",
+  "description":"Nacido en tiempos de la Colonia fue un sitio de encuentro y entretención nocturna del bajo pueblo. Con apoyo del Estado vivió un fuerte crecimiento en 1895 naciendo el mercado privado denominado como “Vega Central” que finalmente es inaugurado oficialmente en 1916. Hoy en día La vega es el segundo mercado de abastos más grandes de Santiago luego de Lo Valledor. Este paseo es muy recomendable para quienes quieren vivir el día a día de la industria gastronómica y comercial de Santiago, dado que es un mercado concentrador de una gran variedad de productos destacándose las frutas y verduras nacionales e importadas. También encontraras todo tipo de platos típicos para comer en el momento y a precios de bolsillo. Sabías que? Los parroquianos del lugar dicen que… “Después de Dios, La Vega…”",
+  "acceso":"si",
+  "baños":"si",
+  "audioguia":"no",
+  "visitas guiadas":"no"
+  },
+  "lugar41":{
+  "nombre":"Iglesia Recoleta Franciscana",
+  "direccion":"Recoleta 220, Recoleta",
+  "coordenadas":"-33.43027916156453, -70.64783077808111",
+  "img":"https://circuitosinclusivos.gobiernosantiago.cl/wp-content/uploads/2017/08/Hito%2011.%20Iglesia%20Recoleta%20Franciscana.jpg",
+  "description":"En 1645, se levantan los muros que dan vida a la primera capilla del lugar, este lugar fue donado a los primeros Franciscanos llegados Chile. Tras el terremoto de 1730, la iglesia tuvo que ser reconstruida, y es como se encuentra hoy. El arquitecto encardado fue Antonio Vidal que comenzó en 1845. La obra se terminó el año 1864 y se componía de cuatro claustros, cada uno con su patio y corredores. La mas importante labor de la iglesia era su solidaridad, que se graficaba con los comedores diarios que albergaban a decenas de personas en situación de calle. El nombre Recoleta se debe a la labor que realizaban sus integrantes: recolectar las limosnas y donaciones. En 2010 después de trabajos de restauración, se reabre el Museo Fray Andresito, gracias a aporte de los devotos que cooperan en la alcancía del templo. También, cuenta con un comedor que hasta el día de hoy sigue funcionando. Este fue credo en los años 70´que otorga almuerzos a 120 personas de lunes a viernes, en honor a Fray Andresito. Su belleza particular y ser el nexo entre la religión y los habitantes del sector, además de su carga histórica hacen que sea declarada el 24 de julio de 1973 como Monumento Nacional. Sabías que? Andrés Filomeno García, más conocido como Fray Andresito, se desempeñaba como limosnero, y ayudó a reunir los fondos para la construcción de la Iglesia de la Recoleta Franciscana.",
+  "acceso":"si",
+  "baños":"si",
+  "audioguia":"no",
+  "visitas guiadas":"no"
+  }
+  }
+  ]
+  }
