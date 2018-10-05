@@ -8,7 +8,7 @@ artyom.addCommands([
      action:function(i){
 
         if(i == 0){
-            artyom.say("hello! How are you?");
+            artyom.say("hola, indicame tu sitio de interes");
         }
      }   
     },
