@@ -1,4 +1,5 @@
-#mapContainer {
+
+#mapContainer{
     width: 100vw;
     height: 100vh;
     position: relative;
@@ -29,6 +30,7 @@
     display: -webkit-inline-box;
     color: white;
     margin-bottom: 0px;
+    font-size: medium;
 }
 
 .logOut {
@@ -46,20 +48,21 @@
     color: white;
     background-color: #4A90E2;
 }
-
-.footerContainer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: white;
-    text-align: center;
+.footerButton{
+  background-color: #4A90E2;
+  margin: 5%;
 }
-
-.footerButton {
-    background-color: #4A90E2;
+.footerContainer{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: white;
+  text-align: center;
 }
 
 .footerIcon {
-    color: white;
+  color: white;
+  font-size: xx-large;
+  padding: 5%;
 }

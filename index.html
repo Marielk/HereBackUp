@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="src/styles/loginStyle.css">
     <link rel="stylesheet" href="src/styles/mapViewStyle.css">
+    <link rel="stylesheet" href="src/styles/placeListStyle.css">
     <link rel="stylesheet" href="src/styles/placeInfoStyle.css">
     <!--CDN Iconos-->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
@@ -40,7 +41,8 @@
                 <i class="iconsOptions fas fa-headphones"></i>
                 <p class="subTitle textOptions">Dictado por voz </p>
                 <label class="switch">
-              <input id="checkbox1" type="checkbox"/>
+              <input id="checkbox1" type="checkbox" onclick="starArtyom()"/>
+              <span id="output"></span>
               <div id="slider1" class="slider">
                 <span id="bolita1" class="bolita"></span>  
               </div>
@@ -61,8 +63,13 @@
         <!--contenedor botones de login-->
         <div class="container authButtonContainer">
             <div class="row">
+
                 <div class="col m-6">
                     <button class="btn buttonLogin fb" onclick="facebookLoginWithFirebase()"> 
+
+              <div class="col m-6">
+                <button scope="public_profile,email" class="btn buttonLogin fb" onclick="checkLoginState()"> 
+
                   <i class="iconsAuth fab fa-facebook-f"></i>
                   FACEBOOK 
                 </button > 
@@ -80,8 +87,7 @@
     </section>
     <!-- Cierre Seccion login -->
     
-    </section> <!--fin vista splash-->
-
+   
     <section id="mapSection" class="mapViewMainContainer" >
         <!-- Seccion MapView -->
         <div class="userInfoContainer">
@@ -91,6 +97,7 @@
           <button onclick="logout()" id="logOutBtn" class="btn logOut" >
               <i class="fas fa-window-close"></i> 
           </button>
+
                 </div>
                 <!--Cierre Header-->
                 <div id="mapContainer" style="width: 100vw; height: 100vh">
@@ -110,38 +117,89 @@
                 </div>
                 <!-- Cierre Footer-->
 
+        
+        
+       
+
+
     </section>
     <!-- Cierre Seccion MapView -->
 
-
-    <section id="placeSection" class="placeInfoMainContainer">
-        <!-- Seccion PlaceInfo-->
-        <div>
-            <!--Header-->
-            <button><img class="buttonBack" alt="boton para volver al mapa" src=""/>Back</button>
-        </div>
-        <!--Cierre Header-->
-
-        <div>
-            <!--PlaceImage-->
-            <p>Nombre del lugar</p>
-            <img class="buttonBack" alt="Imagen del lugar elegido" src="" />
-
-            <div class="interacionBar">
-                <!--interaccion bar-->
-                <button><img class="buttonLike" alt="boton de dar me gusta al lugar" src=""/></button>
-                <button><img class="buttonLike" alt="boton de no dar no me gusta" src=""/></button>
-                <button><img class="buttonLike" alt="boton de comentarios" src=""/></button>
+    <!-- Seccion placeList-->
+    <section id="placeList" class="placeListMainContainer container">
+        <!--Header-->
+        <div class="container-fluid userInfoContainer" > 
+          <div class="row" >
+            <div class="col-12" >          
+              <button class="backBtn" id="backButtonList" >
+                <i class="backBtnIcon fas fa-arrow-circle-left"></i>
+              </button>
+              <p class="userInfoText title" > 
+                Listado de lugares para explorar
+              </p>
             </div>
-            <!--Cierre interaccion bar-->
+          </div>        
+        </div>  <!--Cierre Header-->  
+  
+          <!--body de section-->
+          <div class="bodyList container-fluid"> 
+            <!--PlaceList-->
+            <div class="row"> 
+              <div class="col-8" >
+                <div id="placeNewList" class="hidden container-fluid"></div>
+              </div>              
+            </div>  
+            <!-- Cierre PlaceList-->
+          </div>  
+      </section>
+      <!-- Cierre Seccion placeList -->
 
-        </div>
-        <!-- Cierre PlaceImage-->
-        <div listContent>
-            <!--InfoPlaceText-->
-            <p> Informacion del lugar elegido</p>
+    <!-- Seccion PlaceInfo-->
+    <section id="placeSection" class="placeInfoMainContainer container">
+      <!--Header-->
+      <div class="container-fluid userInfoContainer" > 
+        <div class="row" >
+          <div class="col-12" >          
+            <button class="backBtn"  id="backButton" >
+              <i  class="backBtnIcon fas fa-arrow-circle-left"></i>
+            </button>
+          </div>
+        </div>        
+      </div>  <!--Cierre Header-->  
+
+        <!--body de section-->
+        <div class="container-fluid">
+
+          <!--PlaceImage-->
+          <div class="row"> 
+            <div class="col-8" >
+              <img class="" alt="Imagen del lugar elegido" src="" />
+            </div>              
+          </div>  <!-- Cierre PlaceImage-->
+
+          <!--interaccion bar-->
+          <div class="interacionBar">         
+              <button><img class="buttonLike" alt="boton de dar me gusta al lugar" src=""/></button>
+              <button><img class="buttonLike" alt="boton de no dar no me gusta" src=""/></button>
+          </div>
+          <!--Cierre interaccion bar-->
+
+        
+        <!--InfoPlaceText-->
+        <div>   
+          <p id="" > Informacion del lugar elegido</p>
         </div>
         <!--Cierre InfoPlaceText-->
+
+        <!--iconos accesibles-->
+        <div>
+
+        </div>
+        <!--cierre iconos accesibles-->
+
+      </div>
+        <!--Cierre InfoPlaceText-->
+
     </section>
     <!-- Cierre Seccion PlaceInfo -->
 
@@ -165,14 +223,67 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
     <!--scripts locales-->
     <script src="src/scripts/controller.js"></script>
-    <script src="src/scripts/loginModel.js"></script>
+    <!--<script src="src/scripts/loginModel.js"></script>-->
+
 
     <script src="src/scripts/mapModel.js"></script>
+    <script src="src/scripts/placeInfoView.js"></script>
+    <script src="src/scripts/loginModel.js"></script>
+    <script src="./node_modules/artyom.js/build/artyom.window.js"></script>
+    <script src="src/scripts/optionVoiceModel.js"></script>
+  
+    <!--script de fb-->
+
+<script>
+    window.fbAsyncInit = function() {
+      FB.init({
+        appId      : '522963938129543',
+        cookie     : true,
+        xfbml      : true,
+        version    : 'v3.1'
+      });
+        
+      FB.AppEvents.logPageView();   
+        
+    };
+  
+    (function(d, s, id){
+       var js, fjs = d.getElementsByTagName(s)[0];
+       if (d.getElementById(id)) {return;}
+       js = d.createElement(s); js.id = id;
+       js.src = "https://connect.facebook.net/en_US/sdk.js";
+       fjs.parentNode.insertBefore(js, fjs);
+     }(document, 'script', 'facebook-jssdk'));
+
+     function checkLoginState() {
+      
+    FB.getLoginStatus(function(response) {
+      if(response.status === 'connected'){
+        const userID = response.authResponse.userID;
+        FB.api(
+          `/${userID}?fields= name, picture`,
+          function (response) {
+            // console.log(response);
+            
+            if (response && !response.error) {
+              //console.log(response);
+              
+              document.getElementById("userPicture").src = response.picture.data.url;
+	            document.getElementById("userWelcome").innerHTML = "Bienvenid@ " + response.name;
+                
+            /* handle the result */
+            }
+          }
+        );      
+        goToMap();
+      }
+    });
+  }
+
+  </script>
+
+
 </body>
 
-</html>
-
-
-</body>
 
 </html>
