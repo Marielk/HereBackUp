@@ -4,6 +4,7 @@
   "description": "App turismo inclusivo usando mapas de Here, en esta versión les presentamos una guía turistica patrimonial de santiago ",
   "main": "controller.js",
   "dependencies": {
+    "artyom.js": "^1.0.6",
     "jshint": "^2.9.6"
   },
   "devDependencies": {},
