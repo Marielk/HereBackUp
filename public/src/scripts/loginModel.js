@@ -8,7 +8,10 @@ function facebookLoginWithFirebase() {
     });
 
     firebase.auth().signInWithPopup(provider)
-        .then(() => {
+        .then((result) => {
+            var user = result.user;
+            printUserData(user);
+            goToMap();
             console.log("Login con facebook exitoso");
         })
         .catch((error) => {
@@ -16,35 +19,34 @@ function facebookLoginWithFirebase() {
             console.log("Error de firebase > Mensaje > " + error.message); //error.message nos mostrará el mensaje de firebase del mismo error
         });
 }
-//autenticar con Google 
-function googleLoginWithFirebase() {
-    var provider = new firebase.auth.GoogleAuthProvider();
-    firebase.auth().signInWithPopup(provider).then(function (result) {
-        var user = result.user;
-        console.log(user + " " + "login con google exitoso");
-        // ...
-    }).catch(function (error) {
-        // Handle Errors here.
-        var errorCode = error.code;
-        var errorMessage = error.message;
-        // The email of the user's account used.
-        var email = error.email;
-        // The firebase.auth.AuthCredential type that was used.
-        var credential = error.credential;
-        // ...
-    });
+
+  function goToMap() {
+    const loginView = document.getElementById("loginSection");
+    const mapView = document.getElementById("mapSection");
+    // cambiar vistas 
+    loginView.classList.remove('loginMainContainer');
+    loginView.classList.add('loginMainContainerHide');
+    mapView.classList.remove('mapViewMainContainer');
+    mapView.classList.add('mapViewMainContainerShow');
+  }
+function printUserData(user){
+	document.getElementById("userPicture").src = user.photoURL;
+	document.getElementById("userWelcome").innerHTML = "Bienvenid@ " + user.displayName;
 }
+
+function printUserFb(user){
+    document.getElementById("userPicture").src = user.picture;
+	document.getElementById("userWelcome").innerHTML = "Bienvenid@ " + user.name;
+}
+
 //funcion login google
 function loginGoogle() {
-
     const provider = new firebase.auth.GoogleAuthProvider();
-    firebase.auth().signInWithRedirect(provider);
-    firebase.auth().getRedirectResult().then(function (result) {
-  
+    firebase.auth().signInWithPopup(provider).then(function (result) {
+        var user = result.user;
+        printUserData(user);
+        goToMap();
     })
-      // This gives you a Google Access Token. You can use it to access the Google API.
-      //let token = result.credential.accessToken;
-      // The signed-in user info.
       //let user = result.user;
       .catch(function (error) {
         console.log('entrar' + error);
@@ -57,4 +59,25 @@ function loginGoogle() {
         let credential = error.credential;
   
       });
-  }
+	}
+	
+	//Aquí va la función de cerrar sesión
+function logout() {
+	const loginView = document.getElementById("loginSection");
+	const mapView = document.getElementById("mapSection");
+
+  firebase.auth().signOut()
+    .then(() => {
+				// cambiar vistas 
+			loginView.classList.remove('loginMainContainerHide');
+			loginView.classList.add('loginMainContainer');
+			mapView.classList.remove('mapViewMainContainerShow');
+			mapView.classList.add('mapViewMainContainer');
+      alert("Vuelve pronto, te extrañaremos");
+    })
+    .catch();
+}
+
+
+
+  

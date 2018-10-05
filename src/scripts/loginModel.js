@@ -8,31 +8,16 @@ function facebookLoginWithFirebase() {
     });
 
     firebase.auth().signInWithPopup(provider)
-        .then(() => {
+        .then((result) => {
+            var user = result.user;
+            printUserData(user);
+            goToMap();
             console.log("Login con facebook exitoso");
         })
         .catch((error) => {
             console.log("Error de firebase > Código > " + error.code); //error.code nos mostrará el código de error para informarnos qué pasó
             console.log("Error de firebase > Mensaje > " + error.message); //error.message nos mostrará el mensaje de firebase del mismo error
         });
-}
-//autenticar con Google 
-function googleLoginWithFirebase() {
-    var provider = new firebase.auth.GoogleAuthProvider();
-    firebase.auth().signInWithPopup(provider).then(function (result) {
-        var user = result.user;
-        console.log(user + " " + "login con google exitoso");
-        // ...
-    }).catch(function (error) {
-        // Handle Errors here.
-        var errorCode = error.code;
-        var errorMessage = error.message;
-        // The email of the user's account used.
-        var email = error.email;
-        // The firebase.auth.AuthCredential type that was used.
-        var credential = error.credential;
-        // ...
-    });
 }
 
   function goToMap() {
@@ -49,6 +34,10 @@ function printUserData(user){
 	document.getElementById("userWelcome").innerHTML = "Bienvenid@ " + user.displayName;
 }
 
+function printUserFb(user){
+    document.getElementById("userPicture").src = user.picture;
+	document.getElementById("userWelcome").innerHTML = "Bienvenid@ " + user.name;
+}
 
 //funcion login google
 function loginGoogle() {
@@ -88,3 +77,7 @@ function logout() {
     })
     .catch();
 }
+
+
+
+  

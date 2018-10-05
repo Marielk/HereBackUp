@@ -62,7 +62,7 @@
         <div class="container authButtonContainer">
             <div class="row">
               <div class="col m-6">
-                <button class="btn buttonLogin fb" onclick="facebookLoginWithFirebase()"> 
+                <button scope="public_profile,email" class="btn buttonLogin fb" onclick="checkLoginState()"> 
                   <i class="iconsAuth fab fa-facebook-f"></i>
                   FACEBOOK 
                 </button > 
@@ -93,9 +93,6 @@
           </button>
         </div>
         <!--Cierre Header-->
-        <div id="map" style="width: 100vw; height: 100vh; background: grey">
-            <!-- map place -->
-        </div>
         <div class="footerContainer" >
           <!--Footer-->
           <button class="btn footerButton" >
@@ -109,6 +106,9 @@
           </button>
         </div>
         <!-- Cierre Footer-->
+        <div id="mapContainer">
+            <!-- map place -->
+        </div>
 
     </section>
     <!-- Cierre Seccion MapView -->
@@ -137,7 +137,7 @@
 
         </div>
         <!-- Cierre PlaceImage-->
-        <div>
+        <div listContent>
             <!--InfoPlaceText-->
             <p> Informacion del lugar elegido</p>
         </div>
@@ -168,6 +168,56 @@
     <script src="src/scripts/loginModel.js"></script>
 
     <script src="src/scripts/mapModel.js"></script>
+    <script src="src/scripts/placeInfoView.js"></script>
+    <!--script de fb-->
+
+<script>
+    window.fbAsyncInit = function() {
+      FB.init({
+        appId      : '522963938129543',
+        cookie     : true,
+        xfbml      : true,
+        version    : 'v3.1'
+      });
+        
+      FB.AppEvents.logPageView();   
+        
+    };
+  
+    (function(d, s, id){
+       var js, fjs = d.getElementsByTagName(s)[0];
+       if (d.getElementById(id)) {return;}
+       js = d.createElement(s); js.id = id;
+       js.src = "https://connect.facebook.net/en_US/sdk.js";
+       fjs.parentNode.insertBefore(js, fjs);
+     }(document, 'script', 'facebook-jssdk'));
+
+     function checkLoginState() {
+      
+    FB.getLoginStatus(function(response) {
+      if(response.status === 'connected'){
+        const userID = response.authResponse.userID;
+        FB.api(
+          `/${userID}?fields= name, picture`,
+          function (response) {
+            // console.log(response);
+            
+            if (response && !response.error) {
+              //console.log(response);
+              
+              document.getElementById("userPicture").src = response.picture.data.url;
+	            document.getElementById("userWelcome").innerHTML = "Bienvenid@ " + response.name;
+                
+            /* handle the result */
+            }
+          }
+        );      
+        goToMap();
+      }
+    });
+  }
+
+  </script>
 </body>
 
 </html>
