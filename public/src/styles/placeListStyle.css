@@ -23,9 +23,3 @@
 .bodyList{
   background-color: white;
 }
-
-.list-group-item {
-  width: 300px;
-  position: relative;
-  display: grid;
-}

@@ -4,170 +4,170 @@
         "direccion": "Av Libertador Bernardo O’Higgins, 834",
         "coordenadas": "-33.443743, -70.647769",
         "acceso": "si",
-        "baños": "si",
-        "visitas guiadas": "si"
+        "banos": "si",
+        "": "si"
     },
     "lugar2": {
         "nombre": "Universidad de Chile",
         "direccion": "Av. Libertador Bernardo O’Higgins 1058",
         "coordenadas": "-33.4444861, -70.6508667",
         "acceso": "si",
-        "baños": "si",
+        "banos": "si",
         "audioguia": "no",
-        "visitas guiadas": "no"
+        "": "no"
     },
     "lugar3": {
         "nombre": "Club de la Unión",
         "direccion": "Avda. Libertador Bernardo O’Higgins 1091",
         "coordenadas": "-33.439798, -70.6398329",
         "acceso": "no",
-        "baños": "no",
+        "banos": "no",
         "audioguia": "no",
-        "visitas guiadas": "no"
+        "": "no"
     },
     "lugar4": {
         "nombre": "Bolsa de Comercio",
         "direccion": "Calle La Bolsa 64",
         "coordenadas": "-33.4426311, -70.6517394",
         "acceso": "si",
-        "baños": "no",
+        "banos": "no",
         "audioguia": "no",
-        "visitas guiadas": "no"
+        "": "no"
     },
     "lugar5": {
         "nombre": "Edificio Ex Hotel Mundial",
         "direccion": " Moneda 1069",
         "coordenadas": "-33.4449058, -70.654855",
         "acceso": "no",
-        "baños": "no",
+        "banos": "no",
         "audioguia": "no",
-        "visitas guiadas": "no"
+        "": "no"
     },
     "lugar6": {
         "nombre": "Plaza de la Constitución",
         "direccion": "Moneda 1240",
         "coordenadas": "-33.4417302, -70.6542274",
         "acceso": "si",
-        "baños": "no",
+        "banos": "no",
         "audioguia": "no",
-        "visitas guiadas": "no"
+        "": "no"
     },
     "lugar7": {
         "nombre": "Intendencia Metropolitana",
         "direccion": "Morandé 93",
         "coordenadas": "-33.4424153, -70.653214",
         "acceso": "si",
-        "baños": "si",
+        "banos": "si",
         "audioguia": "no",
-        "visitas guiadas": "no"
+        "": "no"
     },
     "lugar8": {
         "nombre": "Palacio de la Moneda",
         "direccion": "Manzana comprendida por las calles Morandé, Moneda, Teatinos y Avda. Libertador Bernardo O’Higgins.",
         "coordenadas": "-33.4428439, -70.6542201",
         "acceso": "si",
-        "baños": "si",
+        "banos": "si",
         "audioguia": "no",
-        "visitas guiadas": "no"
+        "": "no"
     },
     "lugar9": {
         "nombre": "Banco Central de Chile",
         "direccion": "Agustinas 1180",
         "coordenadas": "-33.4411116, -70.6530943",
         "acceso": "si",
-        "baños": "no",
+        "banos": "no",
         "audioguia": "no",
-        "visitas guiadas": "no"
+        "": "no"
     },
     "lugar10": {
         "nombre": "Palacio de los Tribunales de Justicia",
         "direccion": "Compañía 1140",
         "coordenadas": "-33.4386405, -70.6531552",
         "acceso": "si",
-        "baños": "si",
+        "banos": "si",
         "audioguia": "no",
-        "visitas guiadas": "no"
+        "": "no"
     },
     "lugar11": {
         "nombre": "Museo Chileno de Arte Precolombino",
         "direccion": "Bandera 361",
         "coordenadas": "-33.4390878, -70.6524804",
         "acceso": "si",
-        "baños": "si",
+        "banos": "si",
         "audioguia": "no",
-        "visitas guiadas": "no"
+        "": "no"
     },
     "lugar12": {
         "nombre": "Ex Congreso Nacional",
         "direccion": "Compañía 1131",
         "coordenadas": "-33.4382978, -70.6534947",
         "acceso": "si",
-        "baños": "si",
+        "banos": "si",
         "audioguia": "no",
-        "visitas guiadas": "no"
+        "": "no"
     },
     "lugar13": {
         "nombre": "Plaza de Armas",
         "direccion": "Se encuentra entre las calles Merced, Ahumada, Monjitas y Estado.",
         "coordenadas": "-33.4372243, -70.6499673",
         "acceso": "si",
-        "baños": "no",
+        "banos": "no",
         "audioguia": "no",
-        "visitas guiadas": "no"
+        "": "no"
     },
     "lugar14": {
         "nombre": "Catedral Metropolitana",
         "direccion": "Plaza de Armas 444",
         "coordenadas": "-33.4372243, -70.6499673",
         "acceso": "si",
-        "baños": "no",
+        "banos": "no",
         "audioguia": "si",
-        "visitas guiadas": "no"
+        "": "no"
     },
     "lugar15": {
         "nombre": "Parroquia del Sagrario",
         "direccion": "Plaza de Armas 444",
         "coordenadas": "-33.4372243, -70.6499673",
         "acceso": "si",
-        "baños": "no",
+        "banos": "no",
         "audioguia": "no",
-        "visitas guiadas": "no"
+        "": "no"
     },
     "lugar16": {
         "nombre": "Correo Central de Santiago",
         "direccion": "Catedral 989",
         "coordenadas": "-33.4370398, -70.6511603",
         "acceso": "si",
-        "baños": "si",
+        "banos": "si",
         "audioguia": "no",
-        "visitas guiadas": "no"
+        "": "no"
     },
     "lugar17": {
         "nombre": "Museo Histórico Nacional",
         "direccion": "Plaza de Armas 951",
         "coordenadas": "-33.4372714, -70.650708",
         "acceso": "si",
-        "baños": "si",
+        "banos": "si",
         "audioguia": "no",
-        "visitas guiadas": "no"
+        "": "no"
     },
     "lugar18": {
         "nombre": "Palacio Consistorial, Municipalidad de Santiago",
         "direccion": "Costado norte de la Plaza Armas, esquina 21 de Mayo",
         "coordenadas": "-33.4372714, -70.650708",
         "acceso": "si",
-        "baños": "si",
+        "banos": "si",
         "audioguia": "no",
-        "visitas guiadas": "no"
+        "": "no"
     },
     "lugar19": {
         "nombre": "Parroquia San Francisco de El Monte",
         "direccion": "Plaza Independencia 31",
         "coordenadas": "-33.6783192, -70.9782465",
         "acceso": "no",
-        "baños": "no",
+        "banos": "no",
         "audioguia": "no",
-        "visitas guiadas": "no"
+        "": "no"
     },
 
     "lugar20": {
@@ -175,179 +175,179 @@
         "direccion": "Costado Norte de Plaza Independencia",
         "coordenadas": "-33.6783192, -70.9782465",
         "acceso": "no",
-        "baños": "no",
+        "banos": "no",
         "audioguia": "no",
-        "visitas guiadas": "no"
+        "": "no"
     },
     "lugar21": {
         "nombre": "Quinta de recreo El Marino",
         "direccion": "Avenida San Francisco #092, San Francisco de El Monte.",
         "coordenadas": "-33.68035310461593, -70.97743774049299",
         "acceso": "si",
-        "baños": "no",
+        "banos": "no",
         "audioguia": "no",
-        "visitas guiadas": "no"
+        "": "no"
     },
     "lugar22": {
         "nombre": "Viña Doña Javiera",
         "direccion": "Fundo San Miguel s/n, El Monte",
         "coordenadas": "-33.674695740430664, -70.97035949535298",
         "acceso": "si",
-        "baños": "no",
+        "banos": "no",
         "audioguia": "no",
-        "visitas guiadas": "no"
+        "": "no"
     },
     "lugar23": {
         "nombre": "Casa de la cultura Talagante",
         "direccion": "Av. Bernardo O´Higgins N°3201. Costado Balneario Tegualda.",
         "coordenadas": "-33.6739202, -70.9516863",
         "acceso": "si",
-        "baños": "si",
+        "banos": "si",
         "audioguia": "no",
-        "visitas guiadas": "no"
+        "": "no"
     },
     "lugar24": {
         "nombre": "Centro Cultural Teatro Plaza",
         "direccion": "Al ingresar a Talagante, a un costado de Plaza de Armas de la comuna",
         "coordenadas": "-33.66431735953527, -70.93136931335444",
         "acceso": "si",
-        "baños": "si",
+        "banos": "si",
         "audioguia": "no",
-        "visitas guiadas": "no"
+        "": "no"
     },
     "lugar25": {
         "nombre": "Parroquia Inmaculada Concepción",
         "direccion": "Av. Bernardo O´Higgins N°1295. Costado Municipalidad de Talagante.",
         "coordenadas": "-33.66500102295024, -70.93096979906225",
         "acceso": "si",
-        "baños": "si",
+        "banos": "si",
         "audioguia": "no",
-        "visitas guiadas": "no"
+        "": "no"
     },
     "lugar26": {
         "nombre": "Santuario Nuestra Señora de la Merced",
         "direccion": "Santelices, 432 Isla de Maipo Santiago.",
         "coordenadas": "-33.75498871687793, -70.90045518195848",
         "acceso": "si",
-        "baños": "si",
+        "banos": "si",
         "audioguia": "no",
-        "visitas guiadas": "no"
+        "": "no"
     },
     "lugar27": {
         "nombre": "Casona Quezada",
         "direccion": "Santelices 13, Isla de Maipo, Región Metropolitana",
         "coordenadas": "-33.7461513598069, -70.92561622217559",
         "acceso": "no",
-        "baños": "no",
+        "banos": "no",
         "audioguia": "no",
-        "visitas guiadas": "no"
+        "": "no"
     },
     "lugar28": {
         "nombre": "Casona de Los Mesa",
         "direccion": "Lillo 371, Isla de Maipo",
         "coordenadas": "-33.75365649205866, -70.89356659438052",
         "acceso": "si",
-        "baños": "no",
+        "banos": "no",
         "audioguia": "no",
-        "visitas guiadas": "no"
+        "": "no"
     },
     "lugar29": {
         "nombre": "Puente de los Carros",
         "direccion": " Entre Av Recoleta y Av La Paz",
         "coordenadas": "-33.43253667236277, -70.65034330833427",
         "acceso": "si",
-        "baños": "no",
+        "banos": "no",
         "audioguia": "no",
-        "visitas guiadas": "no"
+        "": "no"
     },
     "lugar30": {
         "nombre": "Mercado Central",
         "direccion": " San Pablo 967",
         "coordenadas": "-33.433619833913355, -70.65101493749097",
         "acceso": "si",
-        "baños": "si",
+        "banos": "si",
         "audioguia": "no",
-        "visitas guiadas": "no"
+        "": "no"
     },
     "lugar31": {
         "nombre": "La Piojera",
         "direccion": "Aillavilú 1030",
         "coordenadas": "-33.433545807755394, -70.65215017256392",
         "acceso": "si",
-        "baños": "si",
+        "banos": "si",
         "audioguia": "no",
-        "visitas guiadas": "no"
+        "": "no"
     },
     "lugar32": {
         "nombre": "Estación Mapocho",
         "direccion": "Avenida Balmaceda en Plaza de la Cultura S/N",
         "coordenadas": "-33.43210847848599, -70.65451540314942",
         "acceso": "si",
-        "baños": "si",
+        "banos": "si",
         "audioguia": "no",
-        "visitas guiadas": "no"
+        "": "no"
     },
     "lugar33": {
         "nombre": "Antiguo Instituto de Higiene",
         "direccion": "Av. Independencia #56",
         "coordenadas": "-33.431419431834186, -70.65313271663635",
         "acceso": "no",
-        "baños": "no",
+        "banos": "no",
         "audioguia": "no",
-        "visitas guiadas": "no"
+        "": "no"
     },
     "lugar34": {
         "nombre": "Iglesia de las Carmelitas",
         "direccion": "Borgoño 1047",
         "coordenadas": "-33.430319790209836, -70.65354176363348",
         "acceso": "si",
-        "baños": "si",
+        "banos": "si",
         "audioguia": "no",
-        "visitas guiadas": "no"
+        "": "no"
     },
     "lugar35": {
         "nombre": "Pérgolas",
         "direccion": "Avenida Paz #50",
         "coordenadas": "-33.43151650632162, -70.65199229228152",
         "acceso": "si",
-        "baños": "si",
+        "banos": "si",
         "audioguia": "no",
-        "visitas guiadas": "no"
+        "": "no"
     },
     "lugar36": {
         "nombre": "Mercado Tirso de Molina",
         "direccion": "Sta. María 409, Recoleta",
         "coordenadas": "-33.43182879882733, -70.65046053576353",
         "acceso": "si",
-        "baños": "si",
+        "banos": "si",
         "audioguia": "no",
-        "visitas guiadas": "no"
+        "": "no"
     },
     "lugar37": {
         "nombre": "La Vega Chica",
         "direccion": "Artesanos 719",
         "coordenadas": "-33.43113563757046, -70.6499521227963",
         "acceso": "si",
-        "baños": "si",
+        "banos": "si",
         "audioguia": "no",
-        "visitas guiadas": "no"
+        "": "no"
     },
     "lugar38": {
         "nombre": "Vega Central",
         "direccion": "Antonia López de Bello 760",
         "coordenadas": "-33.42925134537823, -70.64937046275315",
         "acceso": "si",
-        "baños": "si",
+        "banos": "si",
         "audioguia": "no",
-        "visitas guiadas": "no"
+        "": "no"
     },
     "lugar39": {
         "nombre": "Iglesia Recoleta Franciscana",
         "direccion": "Recoleta 220, Recoleta",
         "coordenadas": "-33.43027916156453, -70.64783077808111",
         "acceso": "si",
-        "baños": "si",
+        "banos": "si",
         "audioguia": "no",
-        "visitas guiadas": "no"
+        "": "no"
     }
 }

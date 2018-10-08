@@ -63,10 +63,6 @@
         <!--contenedor botones de login-->
         <div class="container authButtonContainer">
             <div class="row">
-
-                <div class="col m-6">
-                    <button class="btn buttonLogin fb" onclick="facebookLoginWithFirebase()"> 
-
               <div class="col m-6">
                 <button scope="public_profile,email" class="btn buttonLogin fb" onclick="checkLoginState()"> 
 
@@ -111,7 +107,7 @@
                     <button class="btn footerButton">
             <i alt="boton de activar ruta por voz" class="footerIcon fas fa-headphones"></i>
           </button>
-                    <button class="btn footerButton">
+                    <button onclick="changeView()" class="btn footerButton">
             <i alt="ver lista de lugares de recorrido patrimonial" class="footerIcon fas fa-book-open"></i>
           </button>
                 </div>
@@ -228,12 +224,13 @@
 
     <script src="src/scripts/mapModel.js"></script>
     <script src="src/scripts/placeInfoView.js"></script>
+    <script src="src/scripts/promisefetch.js"></script>
     <script src="src/scripts/loginModel.js"></script>
     <script src="./node_modules/artyom.js/build/artyom.window.js"></script>
     <script src="src/scripts/optionVoiceModel.js"></script>
   
-    <!--script de fb-->
 
+<!--script de fb-->
 <script>
     window.fbAsyncInit = function() {
       FB.init({

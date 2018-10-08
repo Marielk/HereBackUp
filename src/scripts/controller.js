@@ -39,3 +39,30 @@ function validaCheckbox2(){
     bolita2.classList.add('bolita');
   }
 }
+
+// funciones cambiar vista desde mapa para mostrar lista de lugares
+// cambiar la vista
+const changeView = () => {
+  const mapView = document.getElementById('mapSection');
+  const placeInfoList = document.getElementById('placeList'); 
+  mapView.classList.add('mapViewMainContainer');
+  mapView.classList.remove('mapViewMainContainerShow');
+  placeInfoList.classList.remove('placeListMainContainer');
+  placeInfoList.classList.add('placeListMainContainerActive');
+  window.createList();
+};
+
+// boton de volver atras 
+document.getElementById('backButtonList').addEventListener('click', () => {
+  changeViewBack();
+});
+
+// cambiar la vista para atras
+const changeViewBack = () => {
+  const mapView = document.getElementById('mapSection');
+  const placeInfoView = document.getElementById('placeSection'); 
+  mapView.classList.remove('mapViewMainContainer');
+  mapView.classList.add('mapViewMainContainerShow');
+  placeInfoView.classList.remove('placeInfoMainContainerShow');
+  placeInfoView.classList.add('placeInfoMainContainer');
+};
