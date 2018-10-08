@@ -95,11 +95,16 @@ const printInfo = (counter) => {
   
   // recoger id de boton y su nombre
   const btn = document.getElementById(counter);
+  
   let nombre = document.getElementById(counter).outerText;
   let replace = nombre.replace(/ /g, "");
   let cardID = replace.toLowerCase();
   //aparecer el elemento 
   let cardContent = document.getElementById(cardID);
+  cardContent.classList.add("collapse");
+  btn.setAttribute("data-toggle", "collapse");
+  btn.setAttribute("data-target", `#${cardID}`);
+  // console.log(btn);
   
   // buscar su match 
   let matchObject = objectArray.find((element) => {
